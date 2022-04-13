@@ -2,7 +2,7 @@ baseURL: https://arunmitra.com/
 theme: hugo-apero
 languageCode: en
 title: Arun Mitra
-author: Arun Mirta
+author: Arun Mitra
 copyright: ''
 googleAnalytics: ''
 disqusShortname: ''
@@ -33,10 +33,10 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Bitter
-  description: A modern, beautiful, and easily configurable blog theme for Hugo.
+  description: HEALTH DATA SCIENTIST | RESEARCHER | ICECREAM LOVER
   favicon: /img/icon1.ico
   headingFontFamily: sans-serif
-  logo: /img/arunmitra2.png
+  logo: /img/arunmitralogo.png
   mainSections:
     - blog
     - project
@@ -44,13 +44,13 @@ params:
   math:
     renderer: katex
   navallcaps: yes
-  orgLocal: Anywhere
-  orgName: RStudio
+  orgLocal: India
+  orgName: Arun Mitra
   sharing_image: /img/arun2.jpg
   social:
     - icon: github
       icon_pack: fab
-      url: https://github.com/apreshill/apero
+      url: https://github.com/drarunmitra
     - icon: facebook-square
       icon_pack: fab
       url: https://www.facebook.com/hashtag/ap%C3%A9ro
@@ -59,25 +59,25 @@ params:
       url: https://www.instagram.com/explore/tags/apero/
     - icon: twitter
       icon_pack: fab
-      url: https://twitter.com/hashtag/apéro
-    - icon: impactstory
+      url: https://twitter.com/drarunmitra
+    - icon: researchgate
       icon_pack: ai
-      url: https://impactstory.org/u/0000-0002-8082-1890
+      url: https://www.researchgate.net/profile/Arun-Mitra
     - icon: orcid
       icon_pack: ai
-      url: http://orcid.org/0000-0002-8082-1890
-    - icon: rss
-      icon_pack: fas
-      url: /blog/index.xml
+      url: https://orcid.org/0000-0001-6742-4033
+    - icon: google-scholar
+      icon_pack: ai
+      url: https://scholar.google.com/citations?hl=en&user=whNtX04AAAAJ
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
   theme: poppy
-  twitter: apreshill
+  twitter: drarunmitra
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
-    repo_name: apreshill/apero
+    repo_name: drarunmitra/arunmitra
     theme: boxy-light
     use_utterances: yes
 taxonomies:
@@ -100,7 +100,7 @@ menu:
       weight: 3
   header:
     - name: About
-      title: About Blogophonic
+      title: About Arun
       url: /about/
       weight: 1
     - name: Blog

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>evergreen on Hugo Apéro</title>
-    <link>https://apero-2022.netlify.app/categories/evergreen/</link>
-    <description>Recent content in evergreen on Hugo Apéro</description>
+    <title>evergreen on Arun Mitra</title>
+    <link>https://arunmitra.com/categories/evergreen/</link>
+    <description>Recent content in evergreen on Arun Mitra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://apero-2022.netlify.app/categories/evergreen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/categories/evergreen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An evergreen post</title>
-      <link>https://apero-2022.netlify.app/blog/evergreen/</link>
+      <link>https://arunmitra.com/blog/evergreen/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://apero-2022.netlify.app/blog/evergreen/</guid>
+      <guid>https://arunmitra.com/blog/evergreen/</guid>
       <description>Rendering mathematical equations     Examples from the mathjax demo. But they work with katex as well.
 Rmarkdown     In .Rmarkdown documents, you can use either
 $a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.
