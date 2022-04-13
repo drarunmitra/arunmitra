@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am passionate about data analytics in healthcare with over 10+ years of research experience. My core area of interest is in the application of epidemiological, spatio-temporal and data science methods in generating actionable evidence for healthcare. Other areas of my work include diabetes, mental health, infectious diseases, public health informatics, and machine learning.
+description: I am a medical doctor who is passionate about data analytics in healthcare with over 10+ years of research experience. My core area of interest is in the application of epidemiological, spatio-temporal and data science methods in generating actionable evidence for healthcare. Other areas of my work include diabetes, mental health, infectious diseases, public health informatics, and machine learning.
 
 image_left: true
 images:

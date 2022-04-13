@@ -1,8 +1,8 @@
-baseURL: https://apero-2022.netlify.app/
+baseURL: https://arunmitra.com/
 theme: hugo-apero
 languageCode: en
-title: Hugo Apéro
-author: Alison Hill
+title: Arun Mitra
+author: Arun Mirta
 copyright: ''
 googleAnalytics: ''
 disqusShortname: ''
@@ -34,9 +34,9 @@ params:
   customheadingFontFamily: Fraunces
   customtextFontFamily: Bitter
   description: A modern, beautiful, and easily configurable blog theme for Hugo.
-  favicon: /img/favicon.ico
+  favicon: /img/icon1.ico
   headingFontFamily: sans-serif
-  logo: /img/blogophonic-mark-dark.png
+  logo: /img/arunmitra2.png
   mainSections:
     - blog
     - project
@@ -46,7 +46,7 @@ params:
   navallcaps: yes
   orgLocal: Anywhere
   orgName: RStudio
-  sharing_image: /img/papillons.jpg
+  sharing_image: /img/arun2.jpg
   social:
     - icon: github
       icon_pack: fab
