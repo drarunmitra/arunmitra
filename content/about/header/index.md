@@ -3,10 +3,12 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
+  Hi, my name is Arun Mitra. Nice to meet you.
 ---
 
 <!-- this is a subheadline -->
-I'm a Hugo theme you'll want to hang out with. :fr: 
+I'm a medical doctor, R educator and tech enthusiast who transitioned from academic research into health data science.  I am an Indian Council of Medical Reseach-funded co-Principal Investigator. I am also a contributing member of the [R Epidemics Consortium (RECon)](https://www.repidemicsconsortium.org/people/). I am the recipient of the fellowship by the Science for Equity, Empowerment and Development (SEED) Division, Department of Science and Technology, Govt. of India and the University Grants Commission Fellowship.
 
-The page you are reading is based on a markdown file- look in `content/about/` to edit. There, look inside the `header`, `main`, and `sidebar` folders to get started building your own "about" page.
+I am currently pursuing a PhD in Health Data Science from [Sree Chitra Tirunal Institute for Medical Sciences & Technology, Trivandrum](https://www.sctimst.ac.in/) where my research work is focused on applying epidemiology, spatio-temoral methods and data science to generate actionable evidence using data from the routine health information systems. 
+
+I hail from [Rampachodavaram](https://en.wikipedia.org/wiki/Rampachodavaram), a small tribal village in the southern state of Andhra Pradesh, India. I enjoy roaming about and connecting with people. 
