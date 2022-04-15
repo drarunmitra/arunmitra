@@ -119,6 +119,33 @@ My content section is: collection  My layout is: single-series   part 2!     doe
     </item>
     
     <item>
+      <title>Education</title>
+      <link>https://arunmitra.com/resume/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/resume/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://arunmitra.com/resume/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/resume/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honors &amp; Awards</title>
+      <link>https://arunmitra.com/resume/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/resume/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Set up your social</title>
       <link>https://arunmitra.com/blog/social/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>

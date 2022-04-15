@@ -119,6 +119,14 @@ menu:
       title: Element Page
       url: /elements/
       weight: 6
+    - name: Resume
+      title: Resume
+      url: /resume/
+      weight: 7
+    - name: Contact
+      title: Contact
+      url: /contact/
+      weight: 8
 privacy:
   disqus:
     disable: no
