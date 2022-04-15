@@ -9,7 +9,7 @@ images:
 - img/arun3.jpg
 show_action_link: true
 show_social_links: true
-subtitle:  Health Data Scientist | Researcher | Icecream Lover
+subtitle:  Health Data Scientist | Researcher | Evidence Synthesizer | Icecream Lover
 text_align_left: false
 title: Arun Mitra
 type: home

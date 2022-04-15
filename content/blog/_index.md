@@ -17,7 +17,7 @@ show_post_date: true
 show_post_thumbnail: true
 sidebar:
   author: Arun Mitra
-  description: "This is the space where I dump my contemplations, musings and ponderings. Much of this is just introspection and an attempt to crystallize my ideas further.\n"
+  description: "This is the space where I dump my contemplations, musings and ponderings. Much of this is just introspection,  an attempt to crystallize my ideas further.\n"
   show_sidebar_adunit: true
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
