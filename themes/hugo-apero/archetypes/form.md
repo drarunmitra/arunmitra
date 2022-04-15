@@ -9,6 +9,6 @@ type: form
 layout: split-right # split-right or split-left
 submit_button_label: Send
 show_social_links: true # specify social accounts in site config
-show_poweredby_formspree: true
+show_poweredby_formspree: false
 formspree_form_id: # your form's endpoint, see integration tab
 ---

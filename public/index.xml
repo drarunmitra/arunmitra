@@ -298,15 +298,14 @@ Formspree requires a (free) account and new form to be set up. The link is made 
     </item>
     
     <item>
-      <title>Contributors</title>
+      <title>Acknowledgement</title>
       <link>https://arunmitra.com/contributors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://arunmitra.com/contributors/</guid>
-      <description>Thank you to all the folks who have contributed both technical and creative skills to this project:
-   Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)
-   Garrick Aden-Buie 🧙‍♀️ (debugged headroom.js and lent his panelset.js code to the theme)
-   Allison Horst 🐕 (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot 🦔)</description>
+      <description>  A big thank you to Allison Hill 🦔 who designed the Hugo Apéro theme based on which this website was built.
+  Shout out to Antonio Sánchez Chinchón who helped inspire the logo with his work on generative art.
+  </description>
     </item>
     
     <item>
