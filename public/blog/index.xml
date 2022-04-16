@@ -6,7 +6,17 @@
     <description>Recent content in A Blog That Works on Arun Mitra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World! - My First Blog Post</title>
+      <link>https://arunmitra.com/blog/2022-04-16-hello-world-my-first-blog-post/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2022-04-16-hello-world-my-first-blog-post/</guid>
+      <description>Little over an year ago I decided to build a personal web space where I can document, archive &amp;amp; organise my work, and possibly share it with others. Since I have no formal training anything remotely related to IT or web development, it proved to be quite a bit of a challenge.
+There are three steps in my approach. I am going to briefly describe them on the following blog post.</description>
+    </item>
+    
     <item>
       <title>Set up your social</title>
       <link>https://arunmitra.com/blog/social/</link>

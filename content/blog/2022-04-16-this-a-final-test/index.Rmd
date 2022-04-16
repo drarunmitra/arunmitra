@@ -1,11 +1,17 @@
 ---
-title: Hello World! - My First Blog Post
+title: This a final test
 author: Arun Mitra
-subtitle: Creating the website
 date: '2022-04-16'
-draft: no
-excerpt: After a very exiting year, the wish comes true. My quest for building my personal website is over. [`https://arunmitra.com/`](https://arunmitra.com) is online. I am going to briefly describe my approach in this post.
+slug: []
+categories: []
+tags: []
+subtitle: ''
+excerpt: ''
+draft: yes
+series: ~
+layout: single
 ---
+
 
 
 Little over an year ago I decided to build a personal web space where I can document, archive & organise my work, and possibly share it with others. Since I have no formal training anything remotely related to IT or web development, it proved to be quite a bit of a challenge. 
