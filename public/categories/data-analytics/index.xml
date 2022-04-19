@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analytics on Arun Mitra</title>
+    <link>https://arunmitra.com/categories/data-analytics/</link>
+    <description>Recent content in Data Analytics on Arun Mitra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/categories/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19 Epidemic in India</title>
+      <link>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</guid>
+      <description>The importance of epidemic curves in epidemiology in understanding and visualising the onset and progression of an epidemic is immense. It provides key insights in terms of the magnitude of the disease, the mode of transmission, trends over time and the incubation period.
+The below interactive plot is variant of the epidemic curve of COVID-19 in India. By default, the weekly average of daily cases, recovered and deaths is presented in the plot.</description>
+    </item>
+    
+    <item>
+      <title>Estimating Effective Reproduction Number for the COVID-19 Epidemic in India</title>
+      <link>https://arunmitra.com/blog/2021-05-12-estimating-effective-reproduction-number-for-the-covid-19-epidemic-in-india/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-estimating-effective-reproduction-number-for-the-covid-19-epidemic-in-india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gender Inequities in COVID-19 Vaccinations</title>
+      <link>https://arunmitra.com/blog/2021-05-12-gender-inequities-in-covid-19-vaccinations/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-gender-inequities-in-covid-19-vaccinations/</guid>
+      <description>This post looks into the COVID-19 vaccinations in India and the respective states. The data is downloaded from COVID-19 India Tracker Website as provided in the data sources section in the methodology.
+Total Vaccinations## Warning in RColorBrewer::brewer.pal(N, &amp;quot;Set2&amp;quot;): n too large, allowed maximum for palette Set2 is 8## Returning the palette you asked for with that many colors## Warning in RColorBrewer::brewer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,141 @@
+---
+title: Gender Inequities in COVID-19 Vaccinations
+author: Arun Mitra
+date: '2021-05-12'
+slug: []
+categories:
+  - Epidemiology
+  - COVID
+  - R
+  - Data Analytics
+tags: []
+publishdate: '2021-05-12T15:02:37+05:30'
+comments: yes
+---
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r load_packages_data, message=FALSE, warning=FALSE, include=FALSE}
+# Load Packages
+#---------------
+             
+## First specify the packages of interest
+packages = c("tidyverse", 
+             "incidence",
+             "projections",
+             "lubridate",
+             "foreach", 
+             "plotly",
+             "R0",
+             "magrittr",
+             "EpiEstim",
+             "flexdashboard",
+             "shiny",
+             "echarts4r",
+             "distcrete",
+             "epitrix",
+             "furrr",
+             "tictoc",
+             "future",
+             "data.table",
+             "tibbletime",
+             "mapview",
+             "leaflet",
+             "xts",
+             "sf",
+             "tbl2xts",
+             "dygraphs")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+
+# Create Rolling Mean function
+rolling_mean <- rollify(mean, window = 7)
+
+# Load Vaccines Data
+
+vaccine_df <- data.table::fread("http://api.covid19india.org/csv/latest/cowin_vaccine_data_statewise.csv")
+
+# Remove India and unnecessary states 
+vaccine_df %>% names()
+
+vaccine_df_india <- vaccine_df 
+vaccine_df_india <- vaccine_df_india %>% mutate(males_prop = (`Male(Individuals Vaccinated)` / `Total Individuals Vaccinated`)*100)
+vaccine_df_india <- vaccine_df_india %>% mutate(females_prop = (`Female(Individuals Vaccinated)` / `Total Individuals Vaccinated`)*100)
+vaccine_df_india <- vaccine_df_india %>% mutate(Date = lubridate::dmy(`Updated On`))
+
+vaccine_df <- vaccine_df_india %>%
+  mutate(Date = lubridate::dmy(`Updated On`)) %>% 
+  mutate(First_Dose = `First Dose Administered`) %>% 
+  mutate(Second_Dose = `Second Dose Administered`) %>% 
+  mutate(Total_Dose = `Total Individuals Vaccinated`) %>% 
+  mutate(Males = `Male(Individuals Vaccinated)`) %>%
+  mutate(Females = `Female(Individuals Vaccinated)`) %>% 
+  dplyr::select(Date, State, Total_Dose, First_Dose, Second_Dose, Males, Females) %>% 
+  filter(complete.cases(.))
+
+pop_proj_2020 <- readr::read_csv("C:/Users/Arun/Dropbox/My PC (DESKTOP-DLD350S)/Desktop/PhD/COVID-19/Kerala/COVID19_Flexdashboard/statewise_pop_2020.csv")
+pop_proj_2020$state == (vaccine_df$State %>% unique())
+
+vaccine_df <- vaccine_df %>% left_join(pop_proj_2020, by = c("State" = "state"))
+
+vaccine_df <- vaccine_df %>% mutate(males_prop = (Males / Total_Dose)*100)
+vaccine_df <- vaccine_df %>% mutate(females_prop = (Females / Total_Dose)*100)
+vaccine_df <- vaccine_df %>% mutate(prop_vaccinated_first = (First_Dose / pop_proj_2020_over18)*100)
+vaccine_df <- vaccine_df %>% mutate(prop_vaccinated_second = (Second_Dose / pop_proj_2020_over18)*100)
+
+```
+
+```{r plot_vaccine_data , message=FALSE, warning=FALSE, include=FALSE}
+
+vaccine_fig1 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~First_Dose, color = ~State, type = "scatter", mode = "lines")
+vaccine_fig2 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~Second_Dose, color = ~State, type = "scatter", mode = "lines")
+vaccine_fig3 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~prop_vaccinated_first, color = ~State, type = "scatter", mode = "lines")
+vaccine_fig4 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~prop_vaccinated_second, color = ~State, type = "scatter", mode = "lines")
+vaccine_fig5 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~First_Dose, z = ~Second_Dose, color = ~State)
+vaccine_fig6 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~males_prop, color = ~State, type = "scatter", mode = "lines")
+vaccine_fig7 <- plot_ly(data = vaccine_df, x =  ~ Date, y = ~females_prop, color = ~State, type = "scatter", mode = "lines")
+
+vaccine_fig8 <- plot_ly(data = vaccine_df_india, x =  ~ Date, y = ~females_prop, type = "scatter", mode = "lines", name = "Female") %>% 
+  add_trace(y = ~males_prop, type = "scatter", mode = "lines", name = "Male") %>% 
+  layout(yaxis = list(title = 'Proportion of Total Vaccinations'))
+
+vaccine_fig9 <- plot_ly(data = (vaccine_df %>% filter(State %in% c("India", "Delhi", "Maharashtra", "Kerala"))), 
+                        y =  ~ Date, x = ~prop_vaccinated_first, z = ~prop_vaccinated_second, color = ~State)
+```
+
+This post looks into the COVID-19 vaccinations in India and the respective states. The data is downloaded from COVID-19 India Tracker Website as provided in the data sources section in the methodology.
+
+## Total Vaccinations
+
+```{r echo=FALSE}
+vaccine_total_dose_fig <- 
+  vaccine_df %>% filter(State != "India") %>% plot_ly(x =  ~ Date, y = ~Total_Dose, color = ~State, type = "scatter", mode = "lines") %>% layout(showlegend = FALSE)
+
+vaccine_total_dose_fig
+```
+
+## Inequity in Vaccine Delivery among the genders
+```{r}
+vaccine_gender_fig <- vaccine_df %>% 
+  filter(State == "India") %>% 
+  plot_ly(x =  ~ Date, y = ~females_prop, type = "scatter", mode = "lines") %>%
+  layout(showlegend = FALSE) %>%
+  add_trace(y = ~males_prop, type = "scatter", mode = "lines", name = "Male") %>% 
+  layout(yaxis = list(title = 'Proportion of Total Vaccinations'))
+vaccine_gender_fig
+```
+

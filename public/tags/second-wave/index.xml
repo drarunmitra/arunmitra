@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Second Wave on Arun Mitra</title>
+    <link>https://arunmitra.com/tags/second-wave/</link>
+    <description>Recent content in Second Wave on Arun Mitra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/tags/second-wave/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19 Epidemic in India</title>
+      <link>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</guid>
+      <description>The importance of epidemic curves in epidemiology in understanding and visualising the onset and progression of an epidemic is immense. It provides key insights in terms of the magnitude of the disease, the mode of transmission, trends over time and the incubation period.
+The below interactive plot is variant of the epidemic curve of COVID-19 in India. By default, the weekly average of daily cases, recovered and deaths is presented in the plot.</description>
+    </item>
+    
+  </channel>
+</rss>

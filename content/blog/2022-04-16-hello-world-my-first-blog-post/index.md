@@ -2,8 +2,14 @@
 title: Hello World! - My First Blog Post
 author: Arun Mitra
 subtitle: Creating the website
-date: '2022-04-16'
+date: '2022-04-15'
 draft: no
+tags:
+  - Personal
+categories:
+  - Blogdown
+  - Hugo
+  - Web Development
 excerpt: After a very exiting year, the wish comes true. My quest for building my personal website is over. [`https://arunmitra.com/`](https://arunmitra.com) is online. I am going to briefly describe my approach in this post.
 ---
 

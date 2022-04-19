@@ -6,15 +6,54 @@
     <description>Recent content in A Blog That Works on Arun Mitra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World! - My First Blog Post</title>
       <link>https://arunmitra.com/blog/2022-04-16-hello-world-my-first-blog-post/</link>
-      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://arunmitra.com/blog/2022-04-16-hello-world-my-first-blog-post/</guid>
       <description>Little over an year ago I decided to build a personal web space where I can document, archive &amp;amp; organise my work, and possibly share it with others. Since I have no formal training anything remotely related to IT or web development, it proved to be quite a bit of a challenge.
 There are three steps in my approach. I am going to briefly describe them on the following blog post.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Epidemic in India</title>
+      <link>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-epidemic-curve-of-covid-19-in-india/</guid>
+      <description>The importance of epidemic curves in epidemiology in understanding and visualising the onset and progression of an epidemic is immense. It provides key insights in terms of the magnitude of the disease, the mode of transmission, trends over time and the incubation period.
+The below interactive plot is variant of the epidemic curve of COVID-19 in India. By default, the weekly average of daily cases, recovered and deaths is presented in the plot.</description>
+    </item>
+    
+    <item>
+      <title>Estimating Effective Reproduction Number for the COVID-19 Epidemic in India</title>
+      <link>https://arunmitra.com/blog/2021-05-12-estimating-effective-reproduction-number-for-the-covid-19-epidemic-in-india/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-estimating-effective-reproduction-number-for-the-covid-19-epidemic-in-india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Wave vs Second Wave</title>
+      <link>https://arunmitra.com/blog/2021-05-12-first-wave-vs-second-wave/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-first-wave-vs-second-wave/</guid>
+      <description>The abrupt onset of the second wave of COVID-19 in India has taken the country by storm. With over 4,00,000 cases being reported daily, India has over 37,00,000 active cases as of 12, May 2021. This post aims to estimate the epidemiological parameters of COVID-19 epidemic in India during the first and second waves.
+As discussed in the previous post, India’s epidemic curve suggests an ongoing second wave of COVID-19 infections in the country.</description>
+    </item>
+    
+    <item>
+      <title>Gender Inequities in COVID-19 Vaccinations</title>
+      <link>https://arunmitra.com/blog/2021-05-12-gender-inequities-in-covid-19-vaccinations/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2021-05-12-gender-inequities-in-covid-19-vaccinations/</guid>
+      <description>This post looks into the COVID-19 vaccinations in India and the respective states. The data is downloaded from COVID-19 India Tracker Website as provided in the data sources section in the methodology.
+Total Vaccinations## Warning in RColorBrewer::brewer.pal(N, &amp;quot;Set2&amp;quot;): n too large, allowed maximum for palette Set2 is 8## Returning the palette you asked for with that many colors## Warning in RColorBrewer::brewer.</description>
     </item>
     
     <item>

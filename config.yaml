@@ -33,7 +33,7 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Bitter
-  description: HEALTH DATA SCIENTIST | RESEARCHER | ICECREAM LOVER
+  description: HEALTH DATA SCIENCE | PUBLIC HEALTH RESEARCHER | EVIDENCE SYNTHESIS
   favicon: /img/icon2.ico
   headingFontFamily: sans-serif
   logo: /img/arunmitralogo.png
@@ -115,14 +115,10 @@ menu:
       title: Talks
       url: /talk/
       weight: 4
-    - name: Elements
-      title: Element Page
-      url: /elements/
+    - name: Training
+      title: Training
+      url: /training/
       weight: 6
-    - name: Resume
-      title: Resume
-      url: /resume/
-      weight: 7
     - name: Contact
       title: Contact
       url: /contact/

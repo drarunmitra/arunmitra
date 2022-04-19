@@ -1,0 +1,229 @@
+---
+title: COVID-19 Epidemic in India
+author: Arun Mitra
+thumbnail: images/main_logo.png
+date: '2021-05-12'
+slug: []
+categories:
+  - R
+  - COVID
+  - Epidemiology
+  - Data Analytics
+tags:
+  - COVID
+  - Epidemic Curve
+  - Second Wave
+publishdate: '2022-04-16T11:22:02+05:30'
+comments: yes
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r load_packages_data, message=FALSE, warning=FALSE, include=FALSE}
+# Load Packages
+#---------------
+             
+## First specify the packages of interest
+packages = c("tidyverse", 
+             "incidence",
+             "projections",
+             "lubridate",
+             "foreach", 
+             "plotly",
+             "R0",
+             "magrittr",
+             "EpiEstim",
+             "flexdashboard",
+             "shiny",
+             "echarts4r",
+             "distcrete",
+             "epitrix",
+             "furrr",
+             "tictoc",
+             "future",
+             "data.table",
+             "tibbletime",
+             "mapview",
+             "leaflet",
+             "xts",
+             "sf",
+             "tbl2xts",
+             "dygraphs")
+
+## Now load or install&load all
+package.check <- lapply(
+  packages,
+  FUN = function(x) {
+    if (!require(x, character.only = TRUE)) {
+      install.packages(x, dependencies = TRUE)
+      library(x, character.only = TRUE)
+    }
+  }
+)
+
+# Create Rolling Mean function
+rolling_mean <- rollify(mean, window = 7)
+
+
+#df <- data.table::fread("https://api.covid19india.org/csv/latest/case_time_series.csv")
+#df <- data.table::fread("https://api.covid19india.org/csv/latest/districts.csv")
+case_time_series <- data.table::fread("https://data.covid19bharat.org/csv/latest/case_time_series.csv")
+
+state_wise <- data.table::fread("https://data.covid19bharat.org/csv/latest/state_wise.csv")
+state_wise_backup <- state_wise
+state_wise %<>% dplyr::select(State, State_code) %>% mutate(State = ifelse(State_code == "TT", "India", State))
+
+india_time_series <- data.table::fread("https://data.covid19bharat.org/csv/latest/state_wise_daily.csv")
+# Manipulate State_wise_time_series
+india_time_series %>% 
+  group_by(Status) %>% 
+  mutate(DN = DN + DD) %>%
+  mutate(Date = lubridate::ymd(Date_YMD)) %>% 
+  dplyr::select(-c("DD", "UN", "Date_YMD")) %>% 
+  ungroup() -> india_time_series
+
+colnames(india_time_series) <- dplyr::recode(
+  colnames(india_time_series), 
+  !!!setNames(as.character(state_wise$State), state_wise$State_code)
+)
+
+#readr::write_rds(india_time_series, "india_time_series.rds")
+```
+
+
+
+The importance of epidemic curves in epidemiology in understanding and visualising the onset and progression of an epidemic is immense. It provides key insights in terms of the magnitude of the disease, the mode of transmission, trends over time and the incubation period.
+
+The below interactive plot is variant of the epidemic curve of COVID-19 in India. By default, the weekly average of daily cases, recovered and deaths is presented in the plot. One can input the duration of estimation of the moving average which is set by default at 14 days.
+
+```{r epidemic_curve, echo=FALSE, message=FALSE, warning=FALSE}
+
+state = "India"
+#state = append(state, "India")
+state_xts <- tbl_xts(india_time_series, cols_to_xts = state, spread_by = Status) 
+india_xts <- tbl_xts(india_time_series, cols_to_xts = "India", spread_by = Status)
+
+epidemic_curve_india <- dygraph(state_xts, 
+        #main = "Weekly Average of Daily Caseload of COIVD-19 in India",
+        main = paste(state)) %>%
+  dyAxis("y", label = "Confirmed", logscale = TRUE) %>%
+  dyAxis("y2", label = "Deceased", independentTicks = TRUE) %>%
+  dySeries("Deceased", axis = 'y2') %>% 
+  dyLegend(show = "follow") %>% 
+  dyRoller(rollPeriod = 14) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.3, 
+              hideOnMouseOut = FALSE) %>% 
+  dyOptions(axisLineWidth = 1.5, fillGraph = TRUE,  drawGrid = FALSE)
+
+
+epidemic_curve_india 
+
+```
+
+The epidemic curve of COVID-19 infection in India suggest a propagated source which suggests that the transmission is primarily between people. Also, it also suggests a second wave of infections from the second week of February 2021.
+
+## Interpretation
+
+### The First Wave
+
+The first wave of the COVID-19 epidemic in India has begun with the first case imported from the epicentre of the COVID-19 outbreak in late 2019 in Wuhan, China on 30, January 2020. The subsequent rise in cases saw strict containment measures enforced by the government of India including a nation-wide lockdown. This resulted in the slowing of the epidemic trajectory and reduction in the epidemiological transmission parameters like effective reproduction number, growth rate, doubling time.[@mitra2020impact; @das2020acq]
+
+```{r epidemic_curve_first_wave, echo=FALSE, message=FALSE, warning=FALSE}
+
+state = "India"
+#state = append(state, "India")
+state_xts <- tbl_xts(india_time_series, cols_to_xts = state, spread_by = Status) 
+india_xts <- tbl_xts(india_time_series, cols_to_xts = "India", spread_by = Status)
+date_window2 <- c("2020-01-01", "2021-02-15")
+
+first_wave_india <- dygraph(state_xts, 
+        group = "state",
+        #main = "Weekly Average of Daily Caseload of COIVD-19 in India",
+        main = paste(state)) %>%
+  dyAxis("y", label = "Confirmed", logscale = TRUE) %>%
+  dyAxis("y2", label = "Deceased", independentTicks = TRUE) %>%
+  dySeries("Deceased", axis = 'y2') %>% 
+  dyEvent("2020-01-30", "First Case of COVID-19 in India (Imported)", labelLoc = "bottom") %>% 
+  dyEvent("2020-03-24", "Lockdown Announced", labelLoc = "bottom") %>% 
+  dyEvent("2020-06-01", "Lockdown Lifted", labelLoc = "bottom") %>% 
+  dyLegend(show = "follow") %>% 
+  dyRangeSelector(dateWindow = date_window2) %>% 
+  dyRoller(rollPeriod = 14) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.3, 
+              hideOnMouseOut = FALSE) %>% 
+  dyOptions(axisLineWidth = 1.5, fillGraph = TRUE,  drawGrid = FALSE)
+
+first_wave_india
+```
+
+The first wave saw its preak on 19, September 2020 and a subsequent decline in both the daily case-load and the transmission parameters. This showed promise that the containment of the epidemic has been successful with India's death toll in at the end of December 2020 being well below that of the global average. India has been both lauded by the World Health Organization and the global community in its efforts to contain the spread of the epidemic. India also positioned itself as a global supplier of affordable vaccines to low and middle income countries  with exports over 100 million between January and March 2021. 
+
+### The Second Wave
+
+By the end of 2020, the pandemic fatigue set in. Also, there has been a shift in the priorities of the government from health to the revival of the economy. Apart from these factors, the local and state elections also played a significant role in the upsurge of COVID-19 infections in the second wave. Political rallies, religious and mass gatherings added fuel to the embers of the first wave. Early evidence suggest that the mutations of the novel coronavirus also may explain the sudden rise in cases. 
+
+
+```{r epidemic_curve_second_wave, echo=FALSE, message=FALSE, warning=FALSE}
+
+state = "India"
+#state = append(state, "India")
+state_xts <- tbl_xts(india_time_series, cols_to_xts = state, spread_by = Status) 
+india_xts <- tbl_xts(india_time_series, cols_to_xts = "India", spread_by = Status)
+date_window3 <- c("2021-02-15","2022-01-01")
+# date_window3 <- c("2021-02-15", as.character(Sys.Date()))
+
+second_wave_india <- dygraph(state_xts, 
+        #main = "Weekly Average of Daily Caseload of COIVD-19 in India",
+        main = paste(state)) %>%
+  dyAxis("y", label = "Confirmed", logscale = TRUE) %>%
+  dyAxis("y2", label = "Deceased", independentTicks = TRUE) %>%
+  dySeries("Deceased", axis = 'y2') %>% 
+  dyLegend(show = "follow") %>% 
+  dyRangeSelector(dateWindow = date_window3) %>% 
+  dyRoller(rollPeriod = 14) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.3, 
+              hideOnMouseOut = FALSE) %>% 
+  dyOptions(axisLineWidth = 1.5, fillGraph = TRUE,  drawGrid = FALSE)
+
+second_wave_india
+```
+
+
+While India was busy celebrating its victory in the war against COVID-19 in early 2021, India was still seeing over 11,000 daily new cases (based on a 14 day average). This premature celebration along with the laxity in preventive measures as well as failure to improve the health infrastructure lead to the mismanage and chaos ensued in the second wave. The government of India's  meagre allotment of <2% of the GDP to the health sector especially during the pandemic times though raised many eyebrows from both the national and international experts, failed to increase its budgetary allocation to the health sector. 
+
+### The Third Wave
+
+
+```{r epidemic_curve_third_wave, echo=FALSE, message=FALSE, warning=FALSE}
+
+state = "India"
+#state = append(state, "India")
+state_xts <- tbl_xts(india_time_series, cols_to_xts = state, spread_by = Status) 
+india_xts <- tbl_xts(india_time_series, cols_to_xts = "India", spread_by = Status)
+# date_window3 <- c("2021-02-15","2022-01-01")
+date_window4 <- c("2022-01-01", as.character(Sys.Date()))
+
+third_wave_india <- dygraph(state_xts, 
+        #main = "Weekly Average of Daily Caseload of COIVD-19 in India",
+        main = paste(state)) %>%
+  dyAxis("y", label = "Confirmed", logscale = TRUE) %>%
+  dyAxis("y2", label = "Deceased", independentTicks = TRUE) %>%
+  dySeries("Deceased", axis = 'y2') %>% 
+  dyLegend(show = "follow") %>% 
+  dyRangeSelector(dateWindow = date_window4) %>% 
+  dyRoller(rollPeriod = 14) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.3, 
+              hideOnMouseOut = FALSE) %>% 
+  dyOptions(axisLineWidth = 1.5, fillGraph = TRUE,  drawGrid = FALSE)
+
+third_wave_india
+```
+
+## References
