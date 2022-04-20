@@ -6,7 +6,7 @@
     <description>Recent content on Arun Mitra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Apr 2022 10:00:00 +0530</lastBuildDate><atom:link href="https://arunmitra.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>https://arunmitra.com/collection/day02/01-netlify/</link>
@@ -146,7 +146,16 @@ My content section is: collection  My layout is: single-series   part 2!     doe
     </item>
     
     <item>
-      <title>NCD &amp; Ayurveda</title>
+      <title>Non-Communicable Diseases &amp; Ayurveda</title>
+      <link>https://arunmitra.com/blog/2022-04-20-ncd-ayurveda/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://arunmitra.com/blog/2022-04-20-ncd-ayurveda/</guid>
+      <description>The blog is a write-up on a talk I have given at the Institute of Management in Government, Thiruvanthapuram, Kerala on 19th April, 2022. It was presented at the training of the state Auryvedic Medical Officers (STP 608) in Kerala on Non Communicable Diseases. STP608 is a course developed by the Indian System of Medicine (ISM), Government of Kerala for training the state medical officers in Ayurveda. Head over to the talk page https://arunmitra.</description>
+    </item>
+    
+    <item>
+      <title>Non-Communicable Diseases &amp; Ayurveda</title>
       <link>https://arunmitra.com/talk/2022-04-19-ncd-ayurveda/</link>
       <pubDate>Tue, 19 Apr 2022 10:00:00 +0530</pubDate>
       

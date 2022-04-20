@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>evidence synthesis on Arun Mitra</title>
-    <link>https://arunmitra.com/categories/evidence-synthesis/</link>
-    <description>Recent content in evidence synthesis on Arun Mitra</description>
+    <title>Talks on Arun Mitra</title>
+    <link>https://arunmitra.com/tags/talks/</link>
+    <description>Recent content in Talks on Arun Mitra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/categories/evidence-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://arunmitra.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Communicable Diseases &amp; Ayurveda</title>
       <link>https://arunmitra.com/blog/2022-04-20-ncd-ayurveda/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://arunmitra.com/blog/2022-04-20-ncd-ayurveda/</guid>
       <description>The blog is a write-up on a talk I have given at the Institute of Management in Government, Thiruvanthapuram, Kerala on 19th April, 2022. It was presented at the training of the state Auryvedic Medical Officers (STP 608) in Kerala on Non Communicable Diseases. STP608 is a course developed by the Indian System of Medicine (ISM), Government of Kerala for training the state medical officers in Ayurveda. Head over to the talk page https://arunmitra.</description>
-    </item>
-    
-    <item>
-      <title>Non-Communicable Diseases &amp; Ayurveda</title>
-      <link>https://arunmitra.com/talk/2022-04-19-ncd-ayurveda/</link>
-      <pubDate>Tue, 19 Apr 2022 10:00:00 +0530</pubDate>
-      
-      <guid>https://arunmitra.com/talk/2022-04-19-ncd-ayurveda/</guid>
-      <description>I&amp;rsquo;m really enjoyed giving this talk! Stay tuned for blogpost and slides.</description>
     </item>
     
   </channel>
