@@ -39,7 +39,8 @@ params:
   logo: /img/arunmitralogo.png
   mainSections:
     - blog
-    - project
+    - research
+    - training
     - talk
   math:
     renderer: katex
@@ -103,21 +104,25 @@ menu:
       title: About Arun
       url: /about/
       weight: 1
+    - name: Research
+      title: Research Projects
+      url: /research/
+      weight: 2
+    - name: Training
+      title: Training & Workshops
+      url: /training/
+      weight: 3
+    - name: Tools
+      title: Tools & Resources
+      url: /tools/
+      weight: 4
     - name: Blog
       title: Blog
       url: /blog/
-      weight: 2
-    - name: Projects
-      title: Project Portfolio
-      url: /project/
-      weight: 3
+      weight: 5
     - name: Talks
       title: Talks
       url: /talk/
-      weight: 4
-    - name: Training
-      title: Training
-      url: /training/
       weight: 6
     - name: Contact
       title: Contact
