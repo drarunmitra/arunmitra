@@ -1,0 +1,21 @@
+{{/*
+  Minimal redirect template. Used only by pages that explicitly set
+  `layout: redirect` in front matter, with `redirect_to` giving the target.
+  Mirrors how Hugo's own aliases emit a meta-refresh page, but avoids the
+  alias-path collision that would occur when the target path is also a
+  real (auto-generated) section URL.
+*/}}
+{{- $dest := .Params.redirect_to | default "/" -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    <link rel="canonical" href="{{ $dest | absURL }}">
+    <meta http-equiv="refresh" content="0; url={{ $dest | relURL }}">
+    <meta name="robots" content="noindex">
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ $dest | relURL }}">{{ $dest }}</a>&hellip;</p>
+  </body>
+</html>

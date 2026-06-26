@@ -1,0 +1,47 @@
+{{/*
+  Site override of themes/hugo-apero/layouts/talk/list.html
+  Fix: the theme calls `.Paginate (... .GroupByDate "2006")` unconditionally.
+  When the talk section has no entries, that paginates an EMPTY PagesGroup, which
+  Hugo (0.84.x) rejects with "cannot convert type page.PagesGroup to Pages",
+  breaking the whole site build. We guard the grouped pagination so it only runs
+  when talks exist, and drive the pager from the grouped $paginator directly
+  (never mixing in the ungrouped `.Paginator`). Remove this file once the talk
+  section has entries AND the upstream theme guards the empty case.
+*/}}
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="blog-intro mw7 center mb5">
+    <h2 class="f2 f1-ns lh-solid tc center fw4">{{ .Title | markdownify }}</h2>
+    {{ with .Description }}<p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}
+    {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy tc center i">{{ if .Params.author }}Written by {{ .Params.author }}{{ end }}</p>{{ end }}
+  </section>
+  <section class="blog-content mw7 center">
+    {{ $caller := . }}
+    {{ $talks := where .RegularPages "Type" "talk" }}
+    {{ if $talks }}
+    {{ $paginator := .Paginate ($talks.GroupByDate "2006") }}
+    {{ range $paginator.PageGroups }}
+    <!--each year starts a new section-->
+    <section class="group-content pb3 pb4-ns bt">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3">{{ .Key | title }}</h5>
+      {{ range .Pages }}
+          {{ .Scratch.Set "$root" $caller }}
+          {{ partial "shared/summary-compact.html" . }}
+      {{ end }}
+    </section>
+    {{ end }}
+    {{ if gt $paginator.TotalPages 1 }}
+    <div class="list-pagination w-100">
+      <ul class="paginate list pl0 tc dt w-100 ma0">
+        <li class="dtc w-25 tl v-mid">{{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="previous pa2 db fw6" aria-label="Previous">&larr; Newer</a>{{ else }}<span class="previous pa2 db fw6">&larr; Newer</span>{{ end }}</li>
+        <li class="dtc w-50 v-mid"><span class="page_number fw6 f7 ttu tracked">{{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span></li>
+        <li class="dtc w-25 tr v-mid">{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="next pa2 db fw6" aria-label="Next">Older &rarr;</a>{{ else }}<span class="next pa2 db fw6">Older &rarr;</span>{{ end }}</li>
+      </ul>
+    </div>
+    {{ end }}
+    {{ else }}
+    <p class="f5 measure center tc i mt4">No talks have been posted yet — check back soon.</p>
+    {{ end }}
+  </section>
+</main>
+{{ end }}
