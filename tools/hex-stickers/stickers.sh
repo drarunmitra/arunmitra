@@ -78,9 +78,17 @@ gen_one() {
   local slug="$1"
   local dir; dir="$(outdir_for "$slug")"
   if [[ -z "$dir" ]]; then echo "UNKNOWN slug: $slug"; return 1; fi
-  if [[ -n "${BL[$slug]}" ]]; then export ASPECT="16:9"; else export ASPECT="1:1"; fi
-  echo "=== $slug (${ASPECT}) ==="
-  python3 "$GEN" "$dir/featured.jpg" "$MODEL" "$(prompt_for "$slug")"
+  if [[ -n "${BL[$slug]}" ]]; then
+    export ASPECT="16:9"                       # blog banners: keep as full-bleed JPEG
+    echo "=== $slug (banner ${ASPECT}) ==="
+    python3 "$GEN" "$dir/featured.jpg" "$MODEL" "$(prompt_for "$slug")"
+  else
+    export ASPECT="1:1"                         # hex stickers: knock out bg -> transparent PNG
+    echo "=== $slug (hex ${ASPECT}, transparent) ==="
+    python3 "$GEN" "$dir/featured.jpg" "$MODEL" "$(prompt_for "$slug")" \
+      && python3 "$HERE/transparentize.py" "$dir/featured.jpg" "$dir/featured.png" 60 \
+      && rm -f "$dir/featured.jpg"
+  fi
 }
 
 [[ $# -eq 0 ]] && { sed -n '2,12p' "$0"; exit 0; }
