@@ -15,13 +15,7 @@ tags:
   - laparoscopic surgery
   - surgical outcomes
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -41,4 +35,4 @@ This section describes the planned, forward-looking design; as a pre-recruitment
 
 ## Outputs & impact
 
-This collaborator-led trial protocol is registered/planned at AIIMS Bibinagar with recruitment yet to begin, so results are pending. Once conducted, the trial aims to provide controlled evidence on how needle orientation and closure direction affect peritoneal closure time and surgeon effort during TAPP repair, with planned data analysis led by Arun. Dissemination and target journal are TODO_outputs.
+This collaborator-led trial protocol is registered/planned at AIIMS Bibinagar with recruitment yet to begin, so results are pending. Once conducted, the trial aims to provide controlled evidence on how needle orientation and closure direction affect peritoneal closure time and surgeon effort during TAPP repair, with planned data analysis led by Arun. Dissemination and the target journal are yet to be decided.

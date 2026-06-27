@@ -18,16 +18,11 @@ tags:
   - BYM2
   - R
 links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 - icon: github
   icon_pack: fab
   name: Code
   url: https://github.com/drarunmitra/tb-notification-gap-india
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -39,10 +34,10 @@ The work is built as a reproducible research compendium in R (4.4.1). It compare
 
 ## What we found
 
-- The case-detection gap is highly uneven across India, with distinct sub-national clusters of severe under-notification (TODO_findings for specific districts/magnitudes).
+- The case-detection gap is highly uneven across India, with distinct sub-national clusters of severe under-notification; the specific districts and magnitudes will be reported on publication.
 - Accessibility (travel friction) and programme/health-system covariates emerge as candidate drivers of the gap.
 - Mapping the gap at sub-district resolution reveals priority pockets that national or even state-level figures obscure.
 
 ## Outputs & impact
 
-The compendium produces gap-estimate tables and figures (`out/`) with full methodology in Quarto manuscripts, released under MIT (code) and CC-BY-4.0 (derived data) licences with a `CITATION.cff`. By turning notification data into an interpretable, uncertainty-aware map of *missed* TB, the work offers the elimination programme evidence-ready intelligence for targeting active case-finding where it is most needed. The associated manuscript is in preparation (TODO_journal).
+The compendium produces gap-estimate tables and figures (`out/`) with full methodology in Quarto manuscripts, released under MIT (code) and CC-BY-4.0 (derived data) licences with a `CITATION.cff`. By turning notification data into an interpretable, uncertainty-aware map of *missed* TB, the work offers the elimination programme evidence-ready intelligence for targeting active case-finding where it is most needed. The associated manuscript is in preparation.

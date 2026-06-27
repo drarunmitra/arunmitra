@@ -15,11 +15,6 @@ tags:
   - R
   - tidyverse
   - teaching
-links:
-- icon: desktop
-  icon_pack: fas
-  name: Materials
-  url: TODO_materials_url
 ---
 
 ## Background
@@ -41,4 +36,4 @@ Participant learning outcomes include the ability to:
 
 ## Outputs & impact
 
-The module produced teaching code, exercise sets, group activities, output tables, and a worked COVID-19 Kerala analysis. It was delivered as part of training at the Institute of Public Health (IPH). Specific cohorts and dates are TODO_confirm_venues.
+The module produced teaching code, exercise sets, group activities, output tables, and a worked COVID-19 Kerala analysis. It was delivered as part of training at the Institute of Public Health (IPH). Specific cohorts and dates are to be confirmed.

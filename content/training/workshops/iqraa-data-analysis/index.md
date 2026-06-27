@@ -47,4 +47,4 @@ The series combines Quarto Reveal.js slide decks, demonstration datasets, hands-
 - A reusable curriculum: slide decks, demo and raw datasets, exercise scripts with solutions, a data dictionary, figure/PICO reference cards, and a participant handbook (PDF).
 - Self-contained HTML decks for re-delivery.
 - Public repositories and decks: [iqraa-working-with-data-eda](https://github.com/drarunmitra/iqraa-working-with-data-eda) (Working with Data: EDA with the tidyverse), [iqraa-best-practices-data-science](https://github.com/drarunmitra/iqraa-best-practices-data-science) (Best Practices in Data Science), and [iqraa-ai-basics](https://github.com/drarunmitra/iqraa-ai-basics) (AI Basics).
-- Venue: the IQRAA workshop (Kozhikode, Kerala) — TODO_confirm_venue (precise institutional name not confirmed in sources).
+- Venue: the IQRAA workshop in Kozhikode, Kerala (precise institutional name to be confirmed).

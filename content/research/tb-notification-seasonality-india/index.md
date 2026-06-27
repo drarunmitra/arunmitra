@@ -18,10 +18,6 @@ tags:
   - negative binomial
   - R
 links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (under review — TODO_journal)
-  url: TODO_doi
 - icon: database
   icon_pack: fas
   name: Data & code (Zenodo)
@@ -31,7 +27,6 @@ links:
   name: Code
   url: https://github.com/drarunmitra/tb-notification-seasonality-india
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -43,10 +38,10 @@ The analysis is a longitudinal ecological study of monthly TB notifications acro
 
 ## What we found
 
-- Seasonal variance can be partitioned into harmonic, climate, and calendar/campaign components — and several month-on-month movements reverse once reporting structure is adjusted for (TODO_findings for specifics).
+- Seasonal variance can be partitioned into harmonic, climate, and calendar/campaign components — and several month-on-month movements reverse once reporting structure is adjusted for.
 - Public- versus private-sector contrasts expose where apparent seasonality is driven by reporting behaviour rather than disease.
 - Geographic heterogeneity in reporting artefacts means seasonality is not a single national story but a patchwork across districts.
 
 ## Outputs & impact
 
-Archived code and district-level data are released on Zenodo ([doi:10.5281/zenodo.20665380](https://doi.org/10.5281/zenodo.20665380)) under an MIT licence, with the manuscript currently under review (TODO_journal). Distinguishing disease signal from reporting artefact matters for programme planning: it guards against misreading administrative spikes as epidemiological trends and helps target when and where active case-finding and reporting support are most useful.
+Archived code and district-level data are released on Zenodo ([doi:10.5281/zenodo.20665380](https://doi.org/10.5281/zenodo.20665380)) under an MIT licence, with the manuscript currently under review. Distinguishing disease signal from reporting artefact matters for programme planning: it guards against misreading administrative spikes as epidemiological trends and helps target when and where active case-finding and reporting support are most useful.

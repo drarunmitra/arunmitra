@@ -16,11 +16,6 @@ tags:
   - health economics
   - workshop
   - SCTIMST
-links:
-- icon: desktop
-  icon_pack: fas
-  name: Materials
-  url: TODO_materials_url
 ---
 
 ## Background

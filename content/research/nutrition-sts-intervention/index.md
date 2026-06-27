@@ -16,13 +16,7 @@ tags:
   - NutriAide
   - quasi-experimental
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -41,4 +35,4 @@ Conducted as an ICMR Short-Term Studentship project (ref. STS2024-3Y-03247), thi
 
 ## Outputs & impact
 
-This completed studentship analysis is a candid **null result**: the NutriAide app showed no significant advantage over standard antenatal anaemia care, with poor engagement, a short two-month follow-up, small sample, and unmeasured confounders (e.g., parenteral iron) limiting any effect. It offers a useful design lesson for future mHealth nutrition trials — larger, multi-centre samples, longer follow-up, and real-time adherence tracking — alongside a reproducible R analysis pipeline. Manuscript/dissemination details are TODO_journal.
+This completed studentship analysis is a candid **null result**: the NutriAide app showed no significant advantage over standard antenatal anaemia care, with poor engagement, a short two-month follow-up, small sample, and unmeasured confounders (e.g., parenteral iron) limiting any effect. It offers a useful design lesson for future mHealth nutrition trials — larger, multi-centre samples, longer follow-up, and real-time adherence tracking — alongside a reproducible R analysis pipeline. The manuscript and dissemination are in preparation.

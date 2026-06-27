@@ -14,11 +14,6 @@ tags:
   - Quarto
   - reproducible reporting
   - workshop
-links:
-- icon: desktop
-  icon_pack: fas
-  name: Materials
-  url: TODO_materials_url
 ---
 
 ## Background
@@ -27,7 +22,7 @@ Getting started with R and reproducible reporting can be a barrier for newcomers
 
 ## Approach
 
-The session is a hands-on, introductory walkthrough that builds a first Quarto document from the ground up. Participants learn the basics of writing and running R code within a Quarto report, and how to render the same document to HTML, Word, and PDF outputs. Audience, venue, and curriculum detail beyond this introductory scope: TODO_description.
+The session is a hands-on, introductory walkthrough that builds a first Quarto document from the ground up. Participants learn the basics of writing and running R code within a Quarto report, and how to render the same document to HTML, Word, and PDF outputs. Audience, venue, and further curriculum detail are to be confirmed.
 
 ## What we found
 
@@ -38,4 +33,4 @@ The session is a hands-on, introductory walkthrough that builds a first Quarto d
 ## Outputs & impact
 
 - A worked "My First Quarto Document" example produced during the session.
-- Venue: TODO_venue. Date: TODO_date. Audience: TODO_audience.
+- Delivery details (venue, date, audience) are to be confirmed.

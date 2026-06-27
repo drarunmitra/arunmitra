@@ -15,13 +15,7 @@ tags:
   - maternal nutrition
   - birth weight
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -40,4 +34,4 @@ This was a retrospective, descriptive-analytical study of 75 de-identified mothe
 
 ## Outputs & impact
 
-The study provides locally grounded Indian evidence linking maternal anthropometry to neonatal outcomes relevant to ROP risk and is best understood as hypothesis-generating, motivating adequately powered prospective work with complete maternal biochemical data and comprehensive ROP staging. A manuscript draft is ready for submission; target journal is TODO_journal.
+The study provides locally grounded Indian evidence linking maternal anthropometry to neonatal outcomes relevant to ROP risk and is best understood as hypothesis-generating, motivating adequately powered prospective work with complete maternal biochemical data and comprehensive ROP staging. A manuscript draft is ready for submission.

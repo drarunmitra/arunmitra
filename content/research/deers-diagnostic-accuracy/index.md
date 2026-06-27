@@ -16,14 +16,7 @@ tags:
   - endometrial pathology
   - validation
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-
-<!-- TODO_confirm_date -->
 
 ## Background
 

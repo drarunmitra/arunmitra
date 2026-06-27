@@ -16,14 +16,7 @@ tags:
   - PHQ-9
   - screening
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -36,9 +29,9 @@ A cross-sectional design was used, with anxiety screened via the GAD-7 and depre
 ## What we found
 
 - Descriptive epidemiology covered sociodemographics (age, income, education, family type, Kuppuswamy socioeconomic status) and trimester distribution across the screened cohort.
-- Prevalence of any anxiety and any depressive symptoms, severity distributions, and anxiety-depression comorbidity were estimated; exact figures to be confirmed from the final dataset. <!-- TODO_findings -->
-- The first trimester showed the highest rates of moderate-to-severe anxiety and major depression. <!-- TODO_findings -->
-- A referral cascade was constructed, quantifying the share of screen-positive women who actually attended psychiatric assessment. <!-- TODO_findings -->
+- Prevalence of any anxiety and any depressive symptoms, severity distributions, and anxiety-depression comorbidity were estimated; exact figures will be reported on publication.
+- Symptom burden was examined across trimesters of pregnancy.
+- A referral cascade was constructed, quantifying the share of screen-positive women who attended psychiatric assessment.
 
 ## Outputs & impact
 

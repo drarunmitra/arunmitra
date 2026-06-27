@@ -16,11 +16,6 @@ tags:
   - data science
   - R
   - workshop
-links:
-- icon: desktop
-  icon_pack: fas
-  name: Materials
-  url: TODO_materials_url
 ---
 
 ## Background

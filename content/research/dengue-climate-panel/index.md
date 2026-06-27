@@ -17,11 +17,6 @@ tags:
   - time series
   - vector-borne disease
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (Annals of Epidemiology — under review)
-  url: TODO_doi
 ---
 
 ## Background
@@ -30,11 +25,11 @@ Dengue is among the most climate-sensitive vector-borne diseases, with transmiss
 
 ## Approach
 
-The study uses panel-data (longitudinal, state-by-year) statistical and econometric modelling to relate dengue incidence to climatic variables across Indian states over the period 1997–2022. The analysis was carried out in R, exploiting the panel structure to account for state-level heterogeneity and temporal trends. The work was developed as part of a data-science collaboration (with Biju Soman; TODO_coauthors).
+The study uses panel-data (longitudinal, state-by-year) statistical and econometric modelling to relate dengue incidence to climatic variables across Indian states over the period 1997–2022. The analysis was carried out in R, exploiting the panel structure to account for state-level heterogeneity and temporal trends. The work was developed as part of a data-science collaboration (with Biju Soman and colleagues).
 
 ## What we found
 
-- TODO_findings: results are not yet public while the manuscript is under review.
+- Results are not yet public while the manuscript is under review.
 
 ## Outputs & impact
 

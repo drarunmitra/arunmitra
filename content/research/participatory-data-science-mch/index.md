@@ -23,7 +23,6 @@ links:
   name: Preprints (medRxiv)
   url: https://doi.org/10.64898/2026.03.29.26349643
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 

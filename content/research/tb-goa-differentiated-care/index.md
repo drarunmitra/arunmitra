@@ -15,14 +15,7 @@ tags:
   - differentiated care
   - surveillance
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -36,7 +29,7 @@ The analysis draws on patient-level notification data from the Ni-kshay database
 
 - TB notification and comorbidity registers were cleaned, harmonised, and profiled to support stratified, differentiated-care analysis.
 - Exploratory analysis characterised the distribution of comorbidities (including diabetes) and addictions across the notified cohort.
-- Detailed associations with mortality and differentiated-care outcomes are in progress. <!-- TODO_findings -->
+- Detailed associations with mortality and differentiated-care outcomes are in progress.
 
 ## Outputs & impact
 

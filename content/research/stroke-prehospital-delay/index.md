@@ -16,13 +16,7 @@ tags:
   - systematic review
   - secondary analysis
   - R
-links:
-- icon: doi
-  icon_pack: ai
-  name: Paper (TODO_journal)
-  url: TODO_doi
 ---
-<!-- TODO_confirm_date -->
 
 ## Background
 
@@ -34,10 +28,9 @@ The defensible core of the work is a systematic review of factors associated wit
 
 ## What we found
 
-- TODO_findings: factors associated with prehospital delay identified in the systematic review.
-- TODO_findings: results of the geographic accessibility analysis of stroke-centre access.
-- TODO_findings: magnitude of delay and proportion of patients arriving within treatment windows.
+- The systematic review synthesises the factors associated with prehospital delay in acute stroke; detailed results will be reported on publication.
+- A complementary geographic analysis examines access to stroke-capable centres and treatment-window coverage.
 
 ## Outputs & impact
 
-By synthesising the evidence on prehospital delay and complementing it with a geographic analysis of stroke-centre access, the project aims to inform interventions that reduce delay and improve access to time-sensitive stroke care. The systematic review manuscript has been submitted to an Indian public-health journal (TODO_journal; submission late 2025). TODO_findings.
+By synthesising the evidence on prehospital delay and complementing it with a geographic analysis of stroke-centre access, the project aims to inform interventions that reduce delay and improve access to time-sensitive stroke care. The systematic review manuscript has been submitted to an Indian public-health journal (submission late 2025).
