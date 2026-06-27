@@ -57,20 +57,29 @@ RS[amr-diagnostics-poct]="$S Centre: a stylised bacterium beside a handheld poin
 RS[dengue-climate-panel]="$S Centre: a mosquito silhouette overlaid on a rising temperature line and a small multi-panel time-series grid. Palette: green and red on cream. Lower-edge label: DENGUE x CLIMATE."
 RS_ORDER=(stroke-reperfusion-access participatory-data-science-mch icmr-rch-tribal-ap mch-data-ecosystem tb-goa-differentiated-care tb-notification-gap-india tb-notification-seasonality-india hrv-ageing-autonomic antenatal-mental-health deers-diagnostic-accuracy nutrition-sts-intervention rop-maternal-nutrition caesarean-section-nfhs lap-tapp-hernia stroke-prehospital-delay amr-diagnostics-poct dengue-climate-panel)
 
+# ===== BLOG banner images  (output: content/blog/<slug>/ — 16:9, NOT hex) =====
+B="Wide 16:9 editorial banner illustration for a blog header, modern flat-vector style with subtle texture, clean balanced composition with a clear focal subject, harmonious muted palette, generous negative space, no text or lettering, high quality."
+typeset -A BL
+BL[2022-04-20-ncd-ayurveda]="$B Subject: a composition blending traditional Ayurveda with modern data science for public health — a brass mortar-and-pestle with green medicinal herbs and small spice bowls on the left, flowing into clean line charts, a rising trend line and scattered data points on the right. Palette: warm earthy greens, turmeric gold, terracotta, cream."
+BL[2022-04-16-hello-world-my-first-blog-post]="$B Subject: building a personal academic website — a stylised browser window showing a simple homepage layout beside floating snippets of code and small icons (a chart, a globe, the R logo shape), conveying a first-post hello-world moment. Palette: soft blues, gentle purple, a warm coral accent, cream."
+BL_ORDER=(2022-04-20-ncd-ayurveda 2022-04-16-hello-world-my-first-blog-post)
+
 # ----------------------------------------------------------------------------
 outdir_for() {  # echo the content dir for a slug
   local slug="$1"
   if [[ -n "${WS[$slug]}" ]]; then echo "$SITE/content/training/workshops/$slug"
   elif [[ -n "${RS[$slug]}" ]]; then echo "$SITE/content/research/$slug"
+  elif [[ -n "${BL[$slug]}" ]]; then echo "$SITE/content/blog/$slug"
   else echo ""; fi
 }
-prompt_for() { local slug="$1"; echo "${WS[$slug]:-${RS[$slug]}}"; }
+prompt_for() { local slug="$1"; echo "${WS[$slug]:-${RS[$slug]:-${BL[$slug]}}}"; }
 
 gen_one() {
   local slug="$1"
   local dir; dir="$(outdir_for "$slug")"
   if [[ -z "$dir" ]]; then echo "UNKNOWN slug: $slug"; return 1; fi
-  echo "=== $slug ==="
+  if [[ -n "${BL[$slug]}" ]]; then export ASPECT="16:9"; else export ASPECT="1:1"; fi
+  echo "=== $slug (${ASPECT}) ==="
   python3 "$GEN" "$dir/featured.jpg" "$MODEL" "$(prompt_for "$slug")"
 }
 
@@ -78,9 +87,10 @@ gen_one() {
 targets=()
 for a in "$@"; do
   case "$a" in
-    all)       targets+=($WS_ORDER $RS_ORDER) ;;
+    all)       targets+=($WS_ORDER $RS_ORDER $BL_ORDER) ;;
     workshops) targets+=($WS_ORDER) ;;
     research)  targets+=($RS_ORDER) ;;
+    blog)      targets+=($BL_ORDER) ;;
     *)         targets+=("$a") ;;
   esac
 done
