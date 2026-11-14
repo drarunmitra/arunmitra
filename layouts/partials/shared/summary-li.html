@@ -28,7 +28,7 @@
             {{ $thumbnail := $leaf | default $branch }}
             <a href="{{ .RelPermalink }}">
               {{ with $thumbnail }}
-              {{ $src := . }}{{ if in (slice "image/png" "image/jpeg") .MediaType.Type }}{{ $src = .Resize "480x webp q82" }}{{ end }}<img src="{{ $src.RelPermalink | absURL }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy" decoding="async" align="left" class="mw-100 db" alt="{{ $page.Params.image_alt }}">
+              {{ $src := . }}{{ if in (slice "image/png" "image/jpeg") .MediaType.Type }}{{ $src = .Resize "480x webp q82" }}{{ end }}<img src="{{ $src.RelPermalink | absURL }}" width="{{ $src.Width }}" height="{{ $src.Height }}" loading="lazy" decoding="async" style="height:auto" align="left" class="mw-100 db" alt="{{ $page.Params.image_alt }}">
             {{ end }}
             </a>
           </figure>
