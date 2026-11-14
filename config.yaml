@@ -123,10 +123,6 @@ menu:
       title: Talks
       url: /talk/
       weight: 6
-    - name: CV
-      title: Curriculum Vitae
-      url: /cv/
-      weight: 7
     - name: Contact
       title: Contact
       url: /contact/
