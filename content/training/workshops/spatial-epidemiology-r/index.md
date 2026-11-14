@@ -21,6 +21,7 @@ links:
   icon_pack: fas
   name: "Materials"
   url: https://drarunmitra.github.io/DMgtAsia_Spatial_Module_site/
+image_alt: "Hex sticker showing a silhouette of India overlaid with a spatial-weights network (nodes joined by lines) and a small Moran scatter motif"
 ---
 
 ## Background

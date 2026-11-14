@@ -65,7 +65,9 @@ B="Wide 16:9 editorial banner illustration for a blog header, modern flat-vector
 typeset -A BL
 BL[2022-04-20-ncd-ayurveda]="$B Subject: a composition blending traditional Ayurveda with modern data science for public health — a brass mortar-and-pestle with green medicinal herbs and small spice bowls on the left, flowing into clean line charts, a rising trend line and scattered data points on the right. Palette: warm earthy greens, turmeric gold, terracotta, cream."
 BL[2022-04-16-hello-world-my-first-blog-post]="$B Subject: building a personal academic website — a stylised browser window showing a simple homepage layout beside floating snippets of code and small icons (a chart, a globe, the R logo shape), conveying a first-post hello-world moment. Palette: soft blues, gentle purple, a warm coral accent, cream."
-BL_ORDER=(2022-04-20-ncd-ayurveda 2022-04-16-hello-world-my-first-blog-post)
+BL[2026-11-14-bayesian-disease-mapping-inla]="$B Subject: a stylised district map shaded in graded blues and reds beside a smooth bell-shaped posterior curve, with a few linked neighbour nodes between districts. Palette: deep blue, soft red, cream."
+BL[2026-11-14-nfhs-data-in-r]="$B Subject: rows of a survey table flowing into a weighted bar chart, beside a simple outline of India with a few state regions highlighted. Palette: teal, warm orange, off-white."
+BL_ORDER=(2022-04-20-ncd-ayurveda 2022-04-16-hello-world-my-first-blog-post 2026-11-14-bayesian-disease-mapping-inla 2026-11-14-nfhs-data-in-r)
 
 # ----------------------------------------------------------------------------
 outdir_for() {  # echo the content dir for a slug

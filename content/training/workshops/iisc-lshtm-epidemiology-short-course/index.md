@@ -16,6 +16,7 @@ links:
   icon_pack: fas
   name: "Course site"
   url: https://drarunmitra.github.io/iisc-epi-shortcourse/
+image_alt: "Hex sticker showing an epidemic curve beside a 2x2 table, with a magnifying glass over a small crowd of dots"
 ---
 
 Faculty session material for the Short Course in Epidemiology, run by the Interdisciplinary Centre for Public Health (ICPH), IISc Bengaluru, with LSHTM, 21 to 25 September 2026. The course site holds the notes and exercises.

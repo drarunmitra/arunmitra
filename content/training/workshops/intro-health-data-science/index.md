@@ -15,6 +15,7 @@ tags:
   - R
   - tidyverse
   - teaching
+image_alt: "Hex sticker showing a tidy data pipeline (a small table flowing into a chart) with a health plus-cross node"
 ---
 
 ## Background

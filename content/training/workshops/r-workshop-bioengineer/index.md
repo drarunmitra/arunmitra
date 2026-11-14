@@ -19,6 +19,7 @@ links:
   icon_pack: fas
   name: "Materials"
   url: https://drarunmitra.github.io/BioEngineeR_2026/
+image_alt: "Hex sticker showing a stylised letter R combined with a gear-and-DNA-helix (bioengineering) and a small line chart"
 ---
 
 ## Background

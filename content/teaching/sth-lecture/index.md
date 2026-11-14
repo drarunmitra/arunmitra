@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/sth-lecture
+image_alt: "Hex sticker showing a stylised curled roundworm over a patch of soil beside a pair of sandals"
 ---
 
 Slides for the lecture **Soil-Transmitted Helminthiases**, from the Department of Community and Family Medicine, AIIMS Bibinagar.

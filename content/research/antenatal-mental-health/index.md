@@ -16,6 +16,7 @@ tags:
   - PHQ-9
   - screening
   - R
+image_alt: "Hex sticker showing a calm pregnant-woman silhouette with a softly glowing brain and gentle concentric wellbeing waves; tiny checklist marks"
 ---
 
 ## Background

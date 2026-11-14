@@ -11,6 +11,7 @@ categories:
   - Hugo
   - Web Development
 excerpt: After a very exiting year, the wish comes true. My quest for building my personal website is over. [`https://arunmitra.com/`](https://arunmitra.com) is online. I am going to briefly describe my approach in this post.
+image_alt: "Banner image: building a personal academic website — a stylised browser window showing a simple homepage layout beside floating snippets of code and small icons (a chart, a globe, the R logo shape), conveying a first-post hello-world moment"
 ---
 
 

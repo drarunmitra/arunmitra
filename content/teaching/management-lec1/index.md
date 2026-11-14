@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/management-lec1
+image_alt: "Hex sticker showing an organisation chart of three linked boxes beside a gear and a clipboard"
 ---
 
 Slides for the lecture **Basics of Health Management**, from the Department of Community and Family Medicine, AIIMS Bibinagar.

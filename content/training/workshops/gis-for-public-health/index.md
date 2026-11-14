@@ -21,6 +21,7 @@ links:
   icon_pack: fas
   name: "Materials"
   url: https://drarunmitra.github.io/SummerSchool2024_GIS4PublicHealth/
+image_alt: "Hex sticker showing a globe/map fragment with a health plus-cross, scattered location pins and a faint choropleth grid"
 ---
 
 ## Background

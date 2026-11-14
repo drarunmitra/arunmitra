@@ -28,6 +28,7 @@ links:
   icon_pack: fas
   name: "Quarto slides"
   url: https://drarunmitra.github.io/meded_quarto_slides/
+image_alt: "Hex sticker showing a stylised letter R beside a stethoscope forming a graduation-cap shape, with a small document icon and a tiny sparkle for AI"
 ---
 
 This pre-conference workshop was part of MedEd Conclave 2026 at AIIMS New Delhi. It covers a reproducible workflow for medical education research: wrangling data with dplyr, visualising it with ggplot2, and communicating the result with Quarto.

@@ -39,3 +39,11 @@ swap the border style). Re-run only the slugs you changed.
 
 Gemini returns JPEG (no transparency), so outputs are `.jpg`. After regenerating,
 commit the changed `featured.jpg` files and push to deploy via Netlify.
+
+
+## Same size for every sticker
+The image model draws the hexagon at slightly different sizes. After generating, run
+`python tools/hex-stickers/normalize_size.py` (all stickers) or pass one file. It scales each
+hexagon to the same height and centres it on the 1024 px canvas. `slide_stickers.py` does this
+automatically. Tip: if a sticker's hexagon has no solid fill, ask for "a solid cream fill that
+differs from the background" in the prompt, or the knock-out step removes the inside too.

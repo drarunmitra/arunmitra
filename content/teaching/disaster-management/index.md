@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/Disaster_Management
+image_alt: "Hex sticker showing a four-arrow circular cycle around a warning triangle"
 ---
 
 Slides for the lecture **The Disaster Management Cycle**, from the Department of Community and Family Medicine, AIIMS Bibinagar.

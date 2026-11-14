@@ -20,6 +20,7 @@ links:
   icon_pack: fas
   name: "Materials"
   url: https://drarunmitra.github.io/GIS4Epidemiology/
+image_alt: "Hex sticker showing a map tile with clustered disease dots, a magnifying glass over a hotspot, and a faint spatial lattice"
 ---
 
 ## Background

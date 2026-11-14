@@ -12,7 +12,8 @@ draft: no
 layout: standard
 show_title_as_headline: no
 subtitle: Generating Evidence for Public Health using the Data Science Approach. 
-excerpt: This is a blog on the need for innovative approaches in generating evidence on non communicable diseases and the role of data science in bringing equity to research in indigenous systems of medicine like Ayurveda. 
+excerpt: This is a blog on the need for innovative approaches in generating evidence on non communicable diseases and the role of data science in bringing equity to research in indigenous systems of medicine like Ayurveda.
+image_alt: "Banner image: a composition blending traditional Ayurveda with modern data science for public health — a brass mortar-and-pestle with green medicinal herbs and small spice bowls on the left, flowing into clean line charts, a rising trend line"
 ---
 
 The blog is a write-up on a talk I have given at the Institute of Management in Government, Thiruvanthapuram, Kerala on 19th April, 2022.  It was presented at the training of the state Auryvedic Medical Officers (STP 608) in Kerala on Non Communicable Diseases. STP608 is a course developed by the Indian System of Medicine (ISM), Government of Kerala for training the state medical officers in Ayurveda.  Head over to the talk page https://arunmitra.com/talk/2022-04-19-ncd-ayurveda/

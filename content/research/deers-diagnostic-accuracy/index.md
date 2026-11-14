@@ -16,6 +16,7 @@ tags:
   - endometrial pathology
   - validation
   - R
+image_alt: "Hex sticker showing a stylised endometrial/uterine scan motif overlaid with an ROC curve and a small gold checkmark"
 ---
 
 ## Background

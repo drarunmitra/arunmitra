@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/measures_of_dispersion
+image_alt: "Hex sticker showing a narrow bell curve and a wide bell curve with a range bar underneath"
 ---
 
 Slides for the lecture **Measures of Dispersion** (How spread out is the data?), from the Department of Community and Family Medicine, AIIMS Bibinagar.

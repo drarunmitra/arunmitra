@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/india_health_policy_lecture_2
+image_alt: "Hex sticker showing a longer timeline with milestone dots and a small building-blocks stack in front of a silhouette of India"
 ---
 
 Slides for the lecture **India's Health Policy, Lecture 2** (Building the system (1946 to 2004)), from the Department of Community and Family Medicine, AIIMS Bibinagar.

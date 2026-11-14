@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/Qualitative_Research
+image_alt: "Hex sticker showing overlapping speech bubbles with a magnifying glass, on a plain solid pale-blue-grey background, with the label inside the hexagon border and nothing outside it"
 ---
 
 Slides for the lecture **Qualitative Research** (Understanding the why and how behind health and behaviour), from the Department of Community and Family Medicine, AIIMS Bibinagar.

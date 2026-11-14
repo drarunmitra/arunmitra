@@ -15,6 +15,7 @@ tags:
   - differentiated care
   - surveillance
   - R
+image_alt: "Hex sticker showing a pair of stylised lungs above the curved coastline of Goa, with branching care-pathway lines"
 ---
 
 ## Background

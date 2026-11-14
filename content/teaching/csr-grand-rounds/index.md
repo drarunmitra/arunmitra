@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/csr-grand-rounds
+image_alt: "Hex sticker showing a brain above a map with drive-time rings around a hospital pin"
 ---
 
 Slides for the lecture **Proximity is Not Access** (What a drive-time map of stroke care leaves out), from the Department of Community and Family Medicine, AIIMS Bibinagar.

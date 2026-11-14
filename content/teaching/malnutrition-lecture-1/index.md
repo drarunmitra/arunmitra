@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/malnutrition-lecture-1
+image_alt: "Hex sticker showing a child growth-curve chart with percentile lines and a spectrum bar from green to red"
 ---
 
 Slides for the lecture **Malnutrition, Lecture 1** (Spectrum, magnitude and causation), from the Department of Community and Family Medicine, AIIMS Bibinagar.

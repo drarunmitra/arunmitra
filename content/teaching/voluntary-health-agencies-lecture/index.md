@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/voluntary-health-agencies-lecture
+image_alt: "Hex sticker showing several open hands forming a circle around a simple heart, no cross or plus sign"
 ---
 
 Slides for the lecture **Voluntary Health Agencies** (Community Medicine, 7th semester MBBS), from the Department of Community and Family Medicine, AIIMS Bibinagar.

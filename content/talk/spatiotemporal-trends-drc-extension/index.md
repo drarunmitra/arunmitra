@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/Spatiotemporal_Trends_DRC_Extension
+image_alt: "Hex sticker showing a silhouette of India with a rising timeline arrow and a mother-and-child figure"
 ---
 
 <a href="https://drarunmitra.github.io/Spatiotemporal_Trends_DRC_Extension/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/Spatiotemporal_Trends_DRC_Extension" target="_blank" rel="noopener">source on GitHub</a>.
