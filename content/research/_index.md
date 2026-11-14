@@ -21,7 +21,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   title: Research Projects
+seo_title: "Research | Spatial Epidemiology & Maternal-Child Health | Arun Mitra Peddireddy"
 title: Research
 ---
 
-** No content for the research index. This file provides front matter for the research section. **

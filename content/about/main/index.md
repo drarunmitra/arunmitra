@@ -9,7 +9,7 @@ intro: |
   
   ## Lately
 
-  I am currently pursuing a PhD in Health Data Science from [Sree Chitra Tirunal Institute for Medical Sciences & Technology, Trivandrum](https://www.sctimst.ac.in/) where my research work is focused on applying epidemiology, spatio-temoral methods and data science to generate actionable evidence using data from the routine health information systems. 
+  I am an Assistant Professor at AIIMS Bibinagar (since May 2024), where I am also Additional Member Secretary of the Institute Research Committee. I am completing a PhD in Health Data Science at [Sree Chitra Tirunal Institute for Medical Sciences & Technology, Trivandrum](https://www.sctimst.ac.in/) where my research work is focused on applying epidemiology, spatio-temporal methods and data science to generate actionable evidence using data from the routine health information systems. 
 
   I hail from [Rampachodavaram](https://en.wikipedia.org/wiki/Rampachodavaram), a small tribal village in the southern state of Andhra Pradesh, India. 
 
@@ -17,7 +17,7 @@ intro: |
   
   I love my family. My wife and my beautiful daughter are my driving force and source of inspiration. 
   
-  <img src="https://i.ibb.co/bQvSCyZ/diya-sayu.jpg" alt="" border="0">
+  <img src="https://i.ibb.co/bQvSCyZ/diya-sayu.jpg" alt="Arun Mitra with family" border="0">
   
 
   

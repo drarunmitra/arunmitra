@@ -25,7 +25,7 @@ sidebar:
   text_link_label: Subscribe via RSS
   text_link_url: /talk/index.xml
   title: Talks & Presentations
+seo_title: "Talks & Lecture Slides | Arun Mitra Peddireddy"
 title: Talks
 ---
 
-** No content below YAML for the talk _index. This file provides front matter for the listing page layout and sidebar content. **

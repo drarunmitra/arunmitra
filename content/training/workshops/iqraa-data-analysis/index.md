@@ -26,6 +26,14 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/drarunmitra/iqraa-working-with-data-eda
+- icon: desktop
+  icon_pack: fas
+  name: "AI basics slides"
+  url: https://drarunmitra.github.io/iqraa-ai-basics/
+- icon: desktop
+  icon_pack: fas
+  name: "Best practices slides"
+  url: https://drarunmitra.github.io/iqraa-best-practices-data-science/
 ---
 
 ## Background

@@ -34,7 +34,10 @@ WS[data-management-tot]="$S Centre: stacked database cylinders with clean flow a
 WS[iqraa-data-analysis]="$S Centre: the tidyverse pipe symbol leading into an exploratory bar-and-scatter chart, with a small R glyph. Palette: green and blue. Lower-edge label: IQRAA."
 WS[idm-r-workshop]="$S Centre: an SIR compartment model (three linked boxes) above smooth epidemic curves and a small virus glyph, with a tiny R. Palette: crimson and teal. Lower-edge label: IDM."
 WS[r-workshop-bioengineer]="$S Centre: a stylised letter R combined with a gear-and-DNA-helix (bioengineering) and a small line chart. Palette: steel blue and green. Lower-edge label: BioEngineeR."
-WS_ORDER=(gis-for-public-health gis-for-epidemiology spatial-epidemiology-r r-for-hta nwhda-mangalagiri intro-health-data-science ai-for-statistical-analysis data-management-tot iqraa-data-analysis idm-r-workshop r-workshop-bioengineer)
+WS[meded-conclave-2026]="$S Centre: a stylised letter R beside a stethoscope forming a graduation-cap shape, with a small document icon and a tiny sparkle for AI. Palette: navy and amber. Lower-edge label: MEDED."
+WS[mru-manuscript-workshop]="$S Centre: an open manuscript page with a tidy table and a small bar chart, a pen nib and a check mark. Palette: slate and coral. Lower-edge label: MANUSCRIPT."
+WS[iisc-lshtm-epidemiology-short-course]="$S Centre: an epidemic curve beside a 2x2 table, with a magnifying glass over a small crowd of dots. Palette: indigo and gold. Lower-edge label: EPI COURSE."
+WS_ORDER=(gis-for-public-health gis-for-epidemiology spatial-epidemiology-r r-for-hta nwhda-mangalagiri intro-health-data-science ai-for-statistical-analysis data-management-tot iqraa-data-analysis idm-r-workshop r-workshop-bioengineer meded-conclave-2026 mru-manuscript-workshop iisc-lshtm-epidemiology-short-course)
 
 # ===== RESEARCH prompts  (output: content/research/<slug>/) ==============
 typeset -A RS

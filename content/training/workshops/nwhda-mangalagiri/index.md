@@ -17,6 +17,11 @@ tags:
   - Quarto
   - workshop
   - AIIMS Mangalagiri
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "Materials"
+  url: https://drarunmitra.github.io/NWHDA_AIIMS_Mangalagiri/
 ---
 
 ## Background

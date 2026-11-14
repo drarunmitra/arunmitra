@@ -14,6 +14,11 @@ tags:
   - Quarto
   - reproducible reporting
   - workshop
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "Materials"
+  url: https://drarunmitra.github.io/BioEngineeR_2026/
 ---
 
 ## Background

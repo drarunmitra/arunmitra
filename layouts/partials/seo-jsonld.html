@@ -1,0 +1,33 @@
+{{/* Person structured data for Home and About. Fields come from the CV (Oct 2026). */}}
+{{ $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" site.BaseURL)
+  "name" "Arun Mitra Peddireddy"
+  "alternateName" (slice "Arun Mitra" "Dr. Arun Mitra")
+  "jobTitle" "Assistant Professor"
+  "description" "Assistant Professor of Community and Family Medicine at AIIMS Bibinagar. Spatial epidemiology, maternal and child health, health data science."
+  "url" site.BaseURL
+  "image" ("/img/arun3.jpg" | absURL)
+  "worksFor" (dict "@type" "Organization" "name" "All India Institute of Medical Sciences, Bibinagar" "alternateName" "AIIMS Bibinagar" "url" "https://aiimsbibinagar.edu.in/COMMUNITYANDFAMILYMEDICINE.html")
+  "alumniOf" (slice
+    (dict "@type" "CollegeOrUniversity" "name" "Sree Chitra Tirunal Institute for Medical Sciences and Technology")
+    (dict "@type" "CollegeOrUniversity" "name" "Maharashtra University of Health Sciences")
+    (dict "@type" "CollegeOrUniversity" "name" "Hebei Medical University"))
+  "knowsAbout" (slice "Spatial epidemiology" "Health data science" "Public health informatics" "Infectious disease modelling" "Maternal and child health" "Reproducible research")
+  "sameAs" (slice
+    "https://orcid.org/0000-0001-6742-4033"
+    "https://scholar.google.com/citations?user=whNtX04AAAAJ"
+    "https://github.com/drarunmitra"
+    "https://www.researchgate.net/profile/Arun-Mitra"
+    "https://www.linkedin.com/in/dr-arunmitra/"
+    "https://twitter.com/drarunmitra"
+    "https://aiimsbibinagar.edu.in/pdf/Faculty%20Biodata/ArunMitra.pdf")
+}}
+{{ $page := dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "url" .Permalink
+  "name" .Title
+  "mainEntity" $person
+}}
+<script type="application/ld+json">{{ $page | jsonify | safeJS }}</script>

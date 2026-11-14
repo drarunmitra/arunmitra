@@ -15,6 +15,11 @@ tags:
   - spatial epidemiology
   - R
   - workshop
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "Materials"
+  url: https://drarunmitra.github.io/GIS4Epidemiology/
 ---
 
 ## Background
