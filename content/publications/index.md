@@ -5,6 +5,7 @@ description: "Publications by Dr. Arun Mitra Peddireddy: journal articles, Globa
 layout: single
 show_post_date: false
 show_author_byline: false
+hide_details: true
 ---
 
 Papers, collaborator publications, proceedings and protocols. Author name in bold is mine. See also [Google Scholar](https://scholar.google.com/citations?user=whNtX04AAAAJ) and [ORCID](https://orcid.org/0000-0001-6742-4033).

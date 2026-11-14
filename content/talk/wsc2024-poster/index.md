@@ -9,6 +9,7 @@ event: "World Stroke Congress 2024"
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
   url: https://github.com/drarunmitra/WSC2024_Poster
 ---
 
-[Open the slides](https://drarunmitra.github.io/WSC2024_Poster/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/WSC2024_Poster).
+<a href="https://drarunmitra.github.io/WSC2024_Poster/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/WSC2024_Poster" target="_blank" rel="noopener">source on GitHub</a>.

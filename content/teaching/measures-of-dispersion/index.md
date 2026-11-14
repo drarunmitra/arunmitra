@@ -8,6 +8,7 @@ layout: single
 categories:
   - Teaching
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -21,4 +22,4 @@ links:
 
 Slides for the lecture **Measures of Dispersion** (How spread out is the data?), from the Department of Community and Family Medicine, AIIMS Bibinagar.
 
-[Open the slides](https://drarunmitra.github.io/measures_of_dispersion/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/measures_of_dispersion).
+<a href="https://drarunmitra.github.io/measures_of_dispersion/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/measures_of_dispersion" target="_blank" rel="noopener">source on GitHub</a>.

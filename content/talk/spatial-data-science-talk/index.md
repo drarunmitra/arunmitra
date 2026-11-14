@@ -9,6 +9,7 @@ event: "Spatial Epidemiology Webinar Series"
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
   url: https://github.com/drarunmitra/Spatial_Data_Science_Talk
 ---
 
-[Open the slides](https://drarunmitra.github.io/Spatial_Data_Science_Talk/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/Spatial_Data_Science_Talk).
+<a href="https://drarunmitra.github.io/Spatial_Data_Science_Talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/Spatial_Data_Science_Talk" target="_blank" rel="noopener">source on GitHub</a>.

@@ -9,6 +9,7 @@ event: "AMCHSS Seminar Hall, SCTIMST, Trivandrum"
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
   url: https://github.com/drarunmitra/GISE_Sensitisation
 ---
 
-[Open the slides](https://drarunmitra.github.io/GISE_Sensitisation/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/GISE_Sensitisation).
+<a href="https://drarunmitra.github.io/GISE_Sensitisation/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/GISE_Sensitisation" target="_blank" rel="noopener">source on GitHub</a>.

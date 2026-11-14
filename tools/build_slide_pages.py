@@ -115,6 +115,12 @@ def buttons(name, repo):
     return [(name, repo, "desktop", "fas"), ("Source", repo, "github", "fab")]
 
 
+def open_line(repo):
+    """Plain HTML anchors: Markdown attribute syntax like {target=...} is not enabled in this site."""
+    return (f'<a href="{PAGES.format(repo)}" target="_blank" rel="noopener">Open the slides</a> '
+            f'or see the <a href="{GH.format(repo)}" target="_blank" rel="noopener">source on GitHub</a>.')
+
+
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -126,9 +132,9 @@ def teaching_page(repo, title, sub, date):
         "---", f"title: {q(title)}",
         *( [f"subtitle: {q(sub)}"] if sub else [] ),
         f"excerpt: {q(excerpt)}", f"date: {date}", f"author: {q(AUTHOR)}", "layout: single",
-        "categories:", "  - Teaching", "generated: true", links_yaml(buttons("View slides", repo)), "---", "",
+        "categories:", "  - Teaching", "generated: true", "hide_details: true", links_yaml(buttons("View slides", repo)), "---", "",
         f"Slides for the lecture **{title}**" + (f" ({sub})" if sub else "") + ", from the Department of Community and Family Medicine, AIIMS Bibinagar.",
-        "", f"[Open the slides]({PAGES.format(repo)}){{target=\"_blank\"}} or see the [source on GitHub]({GH.format(repo)}).", "",
+        "", f"{open_line(repo)}", "",
     ]
     write(ROOT / "content" / "teaching" / slug(repo) / "index.md", "\n".join(fm))
 
@@ -140,8 +146,8 @@ def talk_page(repo, title, sub, date, event):
         *( [f"subtitle: {q(sub)}"] if sub else [] ),
         f"excerpt: {q(excerpt)}", f"date: {date}", f"author: {q(AUTHOR)}", "layout: single",
         *( [f"event: {q(event)}"] if event else [] ),
-        "categories:", "  - Talks", "generated: true", links_yaml(buttons("View slides", repo)), "---", "",
-        f"[Open the slides]({PAGES.format(repo)}){{target=\"_blank\"}} or see the [source on GitHub]({GH.format(repo)}).", "",
+        "categories:", "  - Talks", "generated: true", "hide_details: true", links_yaml(buttons("View slides", repo)), "---", "",
+        f"{open_line(repo)}", "",
     ]
     write(ROOT / "content" / "talk" / slug(repo) / "index.md", "\n".join(fm))
 
@@ -177,7 +183,7 @@ def new_training(folder, d):
     fm = [
         "---", f"title: {q(d['title'])}", f"subtitle: {q(d['subtitle'])}", f"excerpt: {q(d['excerpt'])}",
         f"date: {d['date']}", f"author: {q(AUTHOR)}", "draft: false", "layout: single",
-        "categories:", "  - Teaching", "  - R", "generated: true", links_yaml(items), "---", "", d["body"],
+        "categories:", "  - Teaching", "  - R", "generated: true", "hide_details: true", links_yaml(items), "---", "", d["body"],
     ]
     write(ROOT / "content" / "training" / "workshops" / folder / "index.md", "\n".join(fm))
 

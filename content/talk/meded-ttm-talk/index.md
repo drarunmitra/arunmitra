@@ -9,6 +9,7 @@ event: "MedEd Conclave 2026, AIIMS New Delhi"
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
   url: https://github.com/drarunmitra/meded_ttm_talk
 ---
 
-[Open the slides](https://drarunmitra.github.io/meded_ttm_talk/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/meded_ttm_talk).
+<a href="https://drarunmitra.github.io/meded_ttm_talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/meded_ttm_talk" target="_blank" rel="noopener">source on GitHub</a>.

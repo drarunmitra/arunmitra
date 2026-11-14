@@ -8,6 +8,7 @@ layout: single
 categories:
   - Teaching
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -21,4 +22,4 @@ links:
 
 Slides for the lecture **IMNCI** (Integrated Management of Neonatal and Childhood Illness), from the Department of Community and Family Medicine, AIIMS Bibinagar.
 
-[Open the slides](https://drarunmitra.github.io/imnci-lecture/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/imnci-lecture).
+<a href="https://drarunmitra.github.io/imnci-lecture/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/imnci-lecture" target="_blank" rel="noopener">source on GitHub</a>.

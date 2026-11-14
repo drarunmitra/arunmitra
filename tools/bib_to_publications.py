@@ -199,6 +199,7 @@ def main():
         "layout: single\n"
         "show_post_date: false\n"
         "show_author_byline: false\n"
+        "hide_details: true\n"
         "---\n\n"
     )
     script = '\n<script type="application/ld+json">' + json.dumps(graph, ensure_ascii=False) + "</script>\n"

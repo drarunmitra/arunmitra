@@ -7,6 +7,7 @@ layout: single
 categories:
   - Teaching
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
 
 Slides for the lecture **Basics of Health Management**, from the Department of Community and Family Medicine, AIIMS Bibinagar.
 
-[Open the slides](https://drarunmitra.github.io/management-lec1/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/management-lec1).
+<a href="https://drarunmitra.github.io/management-lec1/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/management-lec1" target="_blank" rel="noopener">source on GitHub</a>.

@@ -7,6 +7,7 @@ layout: single
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -18,4 +19,4 @@ links:
   url: https://github.com/drarunmitra/ISM-Talk
 ---
 
-[Open the slides](https://drarunmitra.github.io/ISM-Talk/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/ISM-Talk).
+<a href="https://drarunmitra.github.io/ISM-Talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/ISM-Talk" target="_blank" rel="noopener">source on GitHub</a>.

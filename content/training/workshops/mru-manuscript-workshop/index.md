@@ -10,6 +10,7 @@ categories:
   - Teaching
   - R
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas

@@ -7,6 +7,7 @@ layout: single
 categories:
   - Teaching
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -20,4 +21,4 @@ links:
 
 Slides for the lecture **Systematic Reviews and Meta-Analysis**, from the Department of Community and Family Medicine, AIIMS Bibinagar.
 
-[Open the slides](https://drarunmitra.github.io/sr-ma-slides/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/sr-ma-slides).
+<a href="https://drarunmitra.github.io/sr-ma-slides/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/sr-ma-slides" target="_blank" rel="noopener">source on GitHub</a>.

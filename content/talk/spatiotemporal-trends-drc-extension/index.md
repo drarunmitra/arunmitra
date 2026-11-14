@@ -8,6 +8,7 @@ layout: single
 categories:
   - Talks
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -19,4 +20,4 @@ links:
   url: https://github.com/drarunmitra/Spatiotemporal_Trends_DRC_Extension
 ---
 
-[Open the slides](https://drarunmitra.github.io/Spatiotemporal_Trends_DRC_Extension/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/Spatiotemporal_Trends_DRC_Extension).
+<a href="https://drarunmitra.github.io/Spatiotemporal_Trends_DRC_Extension/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/Spatiotemporal_Trends_DRC_Extension" target="_blank" rel="noopener">source on GitHub</a>.

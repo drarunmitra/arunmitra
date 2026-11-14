@@ -8,6 +8,7 @@ layout: single
 categories:
   - Teaching
 generated: true
+hide_details: true
 links:
 - icon: desktop
   icon_pack: fas
@@ -21,4 +22,4 @@ links:
 
 Slides for the lecture **Proximity is Not Access** (What a drive-time map of stroke care leaves out), from the Department of Community and Family Medicine, AIIMS Bibinagar.
 
-[Open the slides](https://drarunmitra.github.io/csr-grand-rounds/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/csr-grand-rounds).
+<a href="https://drarunmitra.github.io/csr-grand-rounds/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/csr-grand-rounds" target="_blank" rel="noopener">source on GitHub</a>.
