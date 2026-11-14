@@ -19,6 +19,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/Spatial_Data_Science_Talk
+image_alt: "Hex sticker showing a silhouette of India tiled with hex-bin clusters in graded colour"
 ---
 
 <a href="https://drarunmitra.github.io/Spatial_Data_Science_Talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/Spatial_Data_Science_Talk" target="_blank" rel="noopener">source on GitHub</a>.

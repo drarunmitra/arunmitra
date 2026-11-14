@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/ihr-lecture
+image_alt: "Hex sticker showing a globe wrapped by a shield with linked network nodes and a small alert bell"
 ---
 
 Slides for the lecture **International Health Regulations**, from the Department of Community and Family Medicine, AIIMS Bibinagar.

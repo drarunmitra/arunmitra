@@ -26,6 +26,7 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/drarunmitra/tb-notification-seasonality-india
+image_alt: "Hex sticker showing a smooth cyclical seasonal wave looping over twelve month-ticks with a small lungs icon at the centre"
 ---
 
 ## Background

@@ -23,6 +23,7 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/drarunmitra/idm-jhapsmcon-2026
+image_alt: "Hex sticker showing an SIR compartment model (three linked boxes) above smooth epidemic curves and a small virus glyph, with a tiny R"
 ---
 
 ## Background

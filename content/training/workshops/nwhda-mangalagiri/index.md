@@ -22,6 +22,7 @@ links:
   icon_pack: fas
   name: "Materials"
   url: https://drarunmitra.github.io/NWHDA_AIIMS_Mangalagiri/
+image_alt: "Hex sticker showing a stylised letter R beside a health-data dashboard (a bar chart and line trend) with a small India map dot"
 ---
 
 ## Background

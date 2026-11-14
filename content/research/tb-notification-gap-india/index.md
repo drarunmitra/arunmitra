@@ -22,6 +22,7 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/drarunmitra/tb-notification-gap-india
+image_alt: "Hex sticker showing a choropleth silhouette of India in graded reds with a visible dark missing pocket, and a magnifying glass over the gap"
 ---
 
 ## Background

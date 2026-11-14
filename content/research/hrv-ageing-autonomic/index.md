@@ -22,6 +22,7 @@ links:
   icon_pack: ai
   name: Paper (Annals of Neurosciences)
   url: https://doi.org/10.1177/09727531261454450
+image_alt: "Hex sticker showing an ECG/heart-rate waveform morphing into a Poincare-plot ellipse, with a subtle age arrow"
 ---
 
 ## Background

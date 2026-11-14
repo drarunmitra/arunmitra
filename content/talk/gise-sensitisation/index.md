@@ -19,6 +19,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/GISE_Sensitisation
+image_alt: "Hex sticker showing a map grid with location pins joined by lines"
 ---
 
 <a href="https://drarunmitra.github.io/GISE_Sensitisation/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/GISE_Sensitisation" target="_blank" rel="noopener">source on GitHub</a>.

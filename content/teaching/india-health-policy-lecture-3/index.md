@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/india_health_policy_lecture_3
+image_alt: "Hex sticker showing a timeline arrow reaching today with a document icon in front of a silhouette of India"
 ---
 
 Slides for the lecture **India's National Health Policy, Lecture 3** (Evolution and current status), from the Department of Community and Family Medicine, AIIMS Bibinagar.

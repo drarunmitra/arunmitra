@@ -20,6 +20,7 @@ links:
   icon_pack: ai
   name: Preprint (medRxiv)
   url: https://doi.org/10.64898/2026.03.28.26349587
+image_alt: "Hex sticker showing several distinct data-source icons (register, phone, chart, folder) joined by flowing lines converging into a single clinic node"
 ---
 
 ## Background

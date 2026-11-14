@@ -16,6 +16,7 @@ tags:
   - systematic review
   - secondary analysis
   - R
+image_alt: "Hex sticker showing a clock fused with a small ambulance and a brain, above a funnel suggesting a systematic-review screening process"
 ---
 
 ## Background

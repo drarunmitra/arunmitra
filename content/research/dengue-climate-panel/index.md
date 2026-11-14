@@ -17,6 +17,7 @@ tags:
   - time series
   - vector-borne disease
   - R
+image_alt: "Hex sticker showing a mosquito silhouette overlaid on a rising temperature line and a small multi-panel time-series grid"
 ---
 
 ## Background

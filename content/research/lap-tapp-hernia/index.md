@@ -15,6 +15,7 @@ tags:
   - laparoscopic surgery
   - surgical outcomes
   - R
+image_alt: "Hex sticker showing a minimal laparoscopic instrument crossing a stylised abdominal-wall mesh patch"
 ---
 
 ## Background

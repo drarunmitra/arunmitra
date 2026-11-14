@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/malnutrition-lecture-2
+image_alt: "Hex sticker showing a measuring tape wrapped around a small upper arm beside a bowl of food"
 ---
 
 Slides for the lecture **Malnutrition, Lecture 2** (Clinical forms, assessment, management and prevention), from the Department of Community and Family Medicine, AIIMS Bibinagar.

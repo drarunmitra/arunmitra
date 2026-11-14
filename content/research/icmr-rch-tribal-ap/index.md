@@ -16,6 +16,7 @@ tags:
   - data integration
   - tribal health
   - action research
+image_alt: "Hex sticker showing interconnected health-information-system nodes flowing into a small primary-health-centre building, over rolling tribal-hill contours"
 ---
 
 ## Background

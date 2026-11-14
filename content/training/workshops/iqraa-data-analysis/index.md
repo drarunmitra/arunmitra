@@ -34,6 +34,7 @@ links:
   icon_pack: fas
   name: "Best practices slides"
   url: https://drarunmitra.github.io/iqraa-best-practices-data-science/
+image_alt: "Hex sticker showing the tidyverse pipe symbol leading into an exploratory bar-and-scatter chart, with a small R glyph"
 ---
 
 ## Background

@@ -22,6 +22,7 @@ links:
   icon_pack: ai
   name: Preprints (medRxiv)
   url: https://doi.org/10.64898/2026.03.29.26349643
+image_alt: "Hex sticker showing two stylised hands cupping a mother-and-child figure, with small connected data-network nodes and a tiny dashboard panel"
 ---
 
 ## Background

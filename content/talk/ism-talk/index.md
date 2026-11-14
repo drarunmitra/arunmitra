@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/ISM-Talk
+image_alt: "Hex sticker showing Ayurveda herbs flowing into clean line charts and a rising trend line"
 ---
 
 <a href="https://drarunmitra.github.io/ISM-Talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/ISM-Talk" target="_blank" rel="noopener">source on GitHub</a>.

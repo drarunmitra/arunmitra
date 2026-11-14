@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/outbreak_investigation
+image_alt: "Hex sticker showing an epidemic curve histogram with a magnifying glass and a small map pin"
 ---
 
 Slides for the lecture **Investigation of an Outbreak** (Reading the curve before you name the pathogen), from the Department of Community and Family Medicine, AIIMS Bibinagar.

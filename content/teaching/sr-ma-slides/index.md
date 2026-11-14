@@ -17,6 +17,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/sr-ma-slides
+image_alt: "Hex sticker showing a forest plot of horizontal confidence-interval lines with a diamond summary estimate, on a plain solid pale-blue-grey background, with the label inside the hexagon border and nothing outside it"
 ---
 
 Slides for the lecture **Systematic Reviews and Meta-Analysis**, from the Department of Community and Family Medicine, AIIMS Bibinagar.

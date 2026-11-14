@@ -26,6 +26,7 @@ links:
   icon_pack: ai
   name: Preprint (medRxiv)
   url: https://doi.org/10.1101/2025.04.15.25325862
+image_alt: "Hex sticker showing a silhouette of India tiled with hex-bin hotspot clusters in graded magenta, plus a small obstetric icon"
 ---
 
 ## Background

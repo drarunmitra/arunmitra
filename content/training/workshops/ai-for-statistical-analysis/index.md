@@ -16,6 +16,7 @@ tags:
   - data science
   - R
   - workshop
+image_alt: "Hex sticker showing a small neural-network of nodes merging with a sigma summation symbol and a spark/idea glyph"
 ---
 
 ## Background

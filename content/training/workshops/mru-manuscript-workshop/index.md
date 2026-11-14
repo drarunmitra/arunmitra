@@ -24,6 +24,7 @@ links:
   icon_pack: fas
   name: "Plagiarism slides"
   url: https://drarunmitra.github.io/MRU_Workshop_Plagiarism/
+image_alt: "Hex sticker showing an open manuscript page with a tidy table and a small bar chart, a pen nib and a check mark"
 ---
 
 Three sessions from a three-day workshop on manuscript preparation and research communication: Materials and Methods (day one), Results with tables and figures (day two), and plagiarism (day three).

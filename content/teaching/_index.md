@@ -15,7 +15,7 @@ seo_title: "Teaching and Lecture Slides | Arun Mitra Peddireddy | AIIMS Bibinaga
 show_author_byline: false
 show_button_links: false
 show_post_date: false
-show_post_thumbnail: false
+show_post_thumbnail: true
 sidebar:
   author: Arun Mitra
   description: "Lecture slides for medical students and trainees. Each page opens the slides in a new tab. For workshops and short courses, see Training. For invited talks, see Talks."

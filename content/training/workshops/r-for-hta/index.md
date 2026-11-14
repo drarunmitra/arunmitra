@@ -16,6 +16,7 @@ tags:
   - health economics
   - workshop
   - SCTIMST
+image_alt: "Hex sticker showing a stylised letter R fused with a cost-effectiveness plane (four-quadrant axes), a small balance-scale and a health cross"
 ---
 
 ## Background

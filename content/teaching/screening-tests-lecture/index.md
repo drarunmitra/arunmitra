@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/screening-tests-lecture
+image_alt: "Hex sticker showing a 2x2 table beside an ROC curve and a small magnifying glass"
 ---
 
 Slides for the lecture **Screening Tests: Sensitivity and Specificity** (Interactive lecture), from the Department of Community and Family Medicine, AIIMS Bibinagar.

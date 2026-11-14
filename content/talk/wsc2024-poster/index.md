@@ -19,6 +19,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/WSC2024_Poster
+image_alt: "Hex sticker showing the long, narrow, curved outline of the state of Kerala on India's south-western coast, with drive-time rings around a few hospital pins and a small brain above"
 ---
 
 <a href="https://drarunmitra.github.io/WSC2024_Poster/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/WSC2024_Poster" target="_blank" rel="noopener">source on GitHub</a>.

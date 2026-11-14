@@ -19,6 +19,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/meded_ttm_talk
+image_alt: "Hex sticker showing a network of people nodes around a stethoscope and a small R letter"
 ---
 
 <a href="https://drarunmitra.github.io/meded_ttm_talk/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/meded_ttm_talk" target="_blank" rel="noopener">source on GitHub</a>.

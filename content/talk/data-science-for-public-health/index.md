@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/data-science-for-public-health
+image_alt: "Hex sticker showing a small data table flowing through a pipeline into a chart and a health plus sign"
 ---
 
 <a href="https://drarunmitra.github.io/data-science-for-public-health/" target="_blank" rel="noopener">Open the slides</a> or see the <a href="https://github.com/drarunmitra/data-science-for-public-health" target="_blank" rel="noopener">source on GitHub</a>.

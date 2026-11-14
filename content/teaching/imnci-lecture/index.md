@@ -18,6 +18,7 @@ links:
   icon_pack: fab
   name: "Source"
   url: https://github.com/drarunmitra/imnci-lecture
+image_alt: "Hex sticker showing a child silhouette with a stethoscope and a green, yellow and red triage strip"
 ---
 
 Slides for the lecture **IMNCI** (Integrated Management of Neonatal and Childhood Illness), from the Department of Community and Family Medicine, AIIMS Bibinagar.

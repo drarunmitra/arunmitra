@@ -22,6 +22,7 @@ links:
   icon_pack: ai
   name: Paper (Journal of Global Antimicrobial Resistance)
   url: https://doi.org/10.1016/j.jgar.2025.06.023
+image_alt: "Hex sticker showing a stylised bacterium beside a handheld point-of-care testing device, with a small equity-balance and map dot"
 ---
 
 ## Background

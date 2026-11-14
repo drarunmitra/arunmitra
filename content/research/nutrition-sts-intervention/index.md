@@ -16,6 +16,7 @@ tags:
   - NutriAide
   - quasi-experimental
   - R
+image_alt: "Hex sticker showing a smartphone showing a food-logging app beside a small bowl of grain and a haemoglobin drop, with a pregnant-woman silhouette"
 ---
 
 ## Background

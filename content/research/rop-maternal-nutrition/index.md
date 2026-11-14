@@ -15,6 +15,7 @@ tags:
   - maternal nutrition
   - birth weight
   - R
+image_alt: "Hex sticker showing a stylised infant eye with delicate retinal vessels, linked by a gentle line to a mother figure"
 ---
 
 ## Background

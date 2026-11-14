@@ -21,6 +21,7 @@ links:
   icon_pack: ai
   name: Paper (International Journal of Stroke)
   url: https://doi.org/10.1177/17474930241312598
+image_alt: "Hex sticker showing a silhouette of India with concentric isochrone rings radiating from a glowing red location pin, plus a small brain-and-clock icon"
 ---
 
 ## Background

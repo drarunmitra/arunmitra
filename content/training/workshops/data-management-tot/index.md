@@ -20,6 +20,7 @@ links:
   icon_pack: fas
   name: "Intro to R module"
   url: https://drarunmitra.github.io/DMgtAsia_DataScience_IntroR_site/
+image_alt: "Hex sticker showing stacked database cylinders with clean flow arrows and two small facilitator figures (training of trainers)"
 ---
 
 ## Background
