@@ -71,6 +71,7 @@ def make(job):
     r = subprocess.run([sys.executable, str(HERE / "transparentize.py"), str(jpg), str(png), "60"],
                        capture_output=True, text=True)
     jpg.unlink(missing_ok=True)
+    subprocess.run([sys.executable, str(HERE / "normalize_size.py"), str(png)], capture_output=True, text=True)
     return slug, (r.stdout.strip() or r.stderr.strip())[-90:]
 
 
