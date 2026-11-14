@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: I am a medical doctor who is passionate about data analytics in healthcare with over 10+ years of research experience. My core area of interest is in the application of epidemiological, spatio-temporal and data science methods in generating actionable evidence for informed decision making in healthcare. Other areas of my work include diabetes, mental health, infectious diseases, public health informatics, and machine learning.
+description: I am Dr. Arun Mitra Peddireddy, Assistant Professor of Community and Family Medicine at AIIMS Bibinagar, Hyderabad. I work on data analytics in healthcare with over 10 years of research experience. My core area of interest is in the application of epidemiological, spatio-temporal and data science methods in generating actionable evidence for informed decision making in healthcare. Other areas of my work include diabetes, mental health, infectious diseases, public health informatics, and machine learning.
 
 image_left: false
 images:
@@ -11,7 +11,8 @@ show_action_link: true
 show_social_links: true
 subtitle:   HEALTH DATA SCIENCE | PUBLIC HEALTH RESEARCH | EVIDENCE SYNTHESIS
 text_align_left: false
-title: Arun Mitra
+title: Arun Mitra Peddireddy
+seo_title: "Arun Mitra Peddireddy | Public Health Researcher, AIIMS Bibinagar"
 type: home
 ---
 

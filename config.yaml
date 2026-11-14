@@ -1,14 +1,15 @@
 baseURL: https://arunmitra.com/
 theme: hugo-apero
 languageCode: en
-title: Arun Mitra
-author: Arun Mitra
+title: Arun Mitra Peddireddy
+author: Arun Mitra Peddireddy
+enableRobotsTXT: true
 copyright: ''
 googleAnalytics: ''
 disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
-paginate: 5
+paginate: 20
 preserveTaxonomyNames: yes
 ignoreFiles:
   - \.Rmd$
@@ -33,7 +34,7 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Bitter
-  description: HEALTH DATA SCIENCE | PUBLIC HEALTH RESEARCHER | EVIDENCE SYNTHESIS
+  description: Dr. Arun Mitra Peddireddy (Arun Mitra), Assistant Professor of Community and Family Medicine at AIIMS Bibinagar. Spatial epidemiology, maternal-child health, R training.
   favicon: /img/icon2.ico
   headingFontFamily: sans-serif
   logo: /img/arunmitralogo.png
@@ -46,18 +47,12 @@ params:
     renderer: katex
   navallcaps: yes
   orgLocal: India
-  orgName: Arun Mitra
+  orgName: Arun Mitra Peddireddy
   sharing_image: /img/arun2.jpg
   social:
     - icon: github
       icon_pack: fab
       url: https://github.com/drarunmitra
-    - icon: facebook-square
-      icon_pack: fab
-      url: https://www.facebook.com/hashtag/ap%C3%A9ro
-    - icon: instagram
-      icon_pack: fab
-      url: https://www.instagram.com/explore/tags/apero/
     - icon: twitter
       icon_pack: fab
       url: https://twitter.com/drarunmitra
@@ -87,16 +82,12 @@ taxonomies:
   tag: tags
 menu:
   footer:
-    - name: License
-      title: License
-      url: /license/
-      weight: 1
     - name: Contact
       title: Contact form
       url: /contact/
       weight: 2
-    - name: Contributors
-      title: Contributors
+    - name: Credits
+      title: Theme credits
       url: /contributors/
       weight: 3
   header:
@@ -108,10 +99,18 @@ menu:
       title: Research Projects
       url: /research/
       weight: 2
+    - name: Publications
+      title: Publications
+      url: /publications/
+      weight: 3
     - name: Training
       title: Training & Workshops
       url: /training/
       weight: 3
+    - name: Teaching
+      title: Teaching and lecture slides
+      url: /teaching/
+      weight: 4
     - name: Tools
       title: Tools & Resources
       url: /tools/
@@ -124,6 +123,10 @@ menu:
       title: Talks
       url: /talk/
       weight: 6
+    - name: CV
+      title: Curriculum Vitae
+      url: /cv/
+      weight: 7
     - name: Contact
       title: Contact
       url: /contact/
@@ -149,3 +152,9 @@ privacy:
   youtube:
     disable: no
     privacyEnhanced: yes
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^BLOGDOWN_POST_RELREF$

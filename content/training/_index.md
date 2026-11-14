@@ -21,7 +21,7 @@ sidebar:
   text_link_label: ""
   text_link_url: ""
   title: Training & Workshops
+seo_title: "R & Epidemiology Workshops | Arun Mitra Peddireddy"
 title: Training
 ---
 
-** No content for the training index. This file provides front matter for the training section. **

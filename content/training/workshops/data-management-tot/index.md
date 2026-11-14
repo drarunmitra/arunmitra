@@ -15,6 +15,11 @@ tags:
   - training of trainers
   - data science
   - workshop
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "Intro to R module"
+  url: https://drarunmitra.github.io/DMgtAsia_DataScience_IntroR_site/
 ---
 
 ## Background

@@ -16,6 +16,11 @@ tags:
   - R
   - public health
   - workshop
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "Materials"
+  url: https://drarunmitra.github.io/SummerSchool2024_GIS4PublicHealth/
 ---
 
 ## Background

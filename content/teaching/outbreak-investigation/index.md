@@ -1,0 +1,24 @@
+---
+title: "Investigation of an Outbreak"
+subtitle: "Reading the curve before you name the pathogen"
+excerpt: "Lecture slides: Investigation of an Outbreak. Reading the curve before you name the pathogen."
+date: 2026-06-02
+author: "Arun Mitra"
+layout: single
+categories:
+  - Teaching
+generated: true
+links:
+- icon: desktop
+  icon_pack: fas
+  name: "View slides"
+  url: https://drarunmitra.github.io/outbreak_investigation/
+- icon: github
+  icon_pack: fab
+  name: "Source"
+  url: https://github.com/drarunmitra/outbreak_investigation
+---
+
+Slides for the lecture **Investigation of an Outbreak** (Reading the curve before you name the pathogen), from the Department of Community and Family Medicine, AIIMS Bibinagar.
+
+[Open the slides](https://drarunmitra.github.io/outbreak_investigation/){target="_blank"} or see the [source on GitHub](https://github.com/drarunmitra/outbreak_investigation).
