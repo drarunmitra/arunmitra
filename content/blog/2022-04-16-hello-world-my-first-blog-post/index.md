@@ -25,7 +25,7 @@ There are three steps in my approach. I am going to briefly describe them on the
 ### 1. Purchasing a web domain
 Though there are many ways one can own a personal webspace without purchasing a domain space, I chose to purchase one. Reason? Since I wanted to share this with others, both in my personal and professional circle, I wanted one with my name on it. 
 
-Between [GoDaddy](godaddy.com) and [Google Domains](domains.google.com), I chose to go with Google Domains after considering a couple of things. 
+Between [GoDaddy](https://godaddy.com) and [Google Domains](https://domains.google.com), I chose to go with Google Domains after considering a couple of things. 
 1. Fast and reliable
 2. Does not serve any ads on the website pages
 3. Integration with top website builders including [Netlify](netlify.com)
