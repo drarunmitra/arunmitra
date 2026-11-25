@@ -24,7 +24,9 @@
 <!--descriptions-->
 {{ $desc := "" }}
 {{/* Generate page description. */}}
-  {{ if .Params.description }}
+  {{ if .Params.meta_description }}
+    {{ $desc = .Params.meta_description }}
+  {{ else if .Params.description }}
     {{ $desc = .Params.description }}
   {{ else if .Params.subtitle }}
     {{ $desc = .Params.subtitle }}
