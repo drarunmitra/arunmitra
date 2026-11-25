@@ -4,6 +4,8 @@ action_link: /about
 action_type: text
 description: I am Dr. Arun Mitra Peddireddy, Assistant Professor of Community and Family Medicine at AIIMS Bibinagar, Hyderabad. I work on data analytics in healthcare with over 10 years of research experience. My core area of interest is in the application of epidemiological, spatio-temporal and data science methods in generating actionable evidence for informed decision making in healthcare. Other areas of my work include diabetes, mental health, infectious diseases, public health informatics, and machine learning.
 
+meta_description: "Dr Arun Mitra Peddireddy, Assistant Professor of Community and Family Medicine at AIIMS Bibinagar. Health data science, epidemiology and evidence synthesis."
+image_alt: "Portrait of Dr Arun Mitra Peddireddy"
 image_left: false
 images:
 - img/arun3.jpg
